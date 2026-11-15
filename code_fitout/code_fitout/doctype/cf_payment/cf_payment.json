@@ -1,0 +1,252 @@
+{
+  "actions": [],
+  "doctype": "DocType",
+  "name": "CF Payment",
+  "module": "Code Fitout",
+  "custom": 0,
+  "engine": "InnoDB",
+  "track_changes": 1,
+  "istable": 0,
+  "is_submittable": 1,
+  "editable_grid": 0,
+  "allow_bulk_edit": 0,
+  "fields": [
+    {
+      "fieldname": "details_tab",
+      "fieldtype": "Tab Break",
+      "label": "Details"
+    },
+    {
+      "fieldname": "payment_details_section",
+      "fieldtype": "Section Break",
+      "label": "Payment Details"
+    },
+    {
+      "fieldname": "supplier",
+      "fieldtype": "Link",
+      "label": "Supplier",
+      "options": "Supplier",
+      "reqd": 1,
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "col_pay_1",
+      "fieldtype": "Column Break",
+      "label": "Col Pay 1"
+    },
+    {
+      "fieldname": "payment_date",
+      "fieldtype": "Date",
+      "label": "Payment Date",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "amount",
+      "fieldtype": "Currency",
+      "label": "Amount",
+      "options": "EGP",
+      "reqd": 1,
+      "non_negative": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "payment_method",
+      "fieldtype": "Link",
+      "label": "Payment Method",
+      "options": "Mode of Payment",
+      "reqd": 1
+    },
+    {
+      "fieldname": "payment_source_tab",
+      "fieldtype": "Tab Break",
+      "label": "Payment Source"
+    },
+    {
+      "fieldname": "funding_details_section",
+      "fieldtype": "Section Break",
+      "label": "Funding Details"
+    },
+    {
+      "fieldname": "paid_by",
+      "fieldtype": "Select",
+      "label": "Paid By",
+      "options": "Property Owner\nMe Personally\nC.O.D.E.\nOther",
+      "reqd": 1
+    },
+    {
+      "fieldname": "funding_source",
+      "fieldtype": "Select",
+      "label": "Funding Source",
+      "options": "Owner Paid Directly\nOwner Funds Already Received\nPersonal Funds - Recoverable\nC.O.D.E. Operating Funds\nOther / To Be Verified",
+      "reqd": 1
+    },
+    {
+      "fieldname": "col_pay_2",
+      "fieldtype": "Column Break",
+      "label": "Col Pay 2"
+    },
+    {
+      "fieldname": "paid_from",
+      "fieldtype": "Data",
+      "label": "Paid From"
+    },
+    {
+      "fieldname": "transfer_reference",
+      "fieldtype": "Data",
+      "label": "Transfer Reference"
+    },
+    {
+      "fieldname": "payment_proof",
+      "fieldtype": "Attach",
+      "label": "Payment Proof"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    },
+    {
+      "fieldname": "erpnext_payment_entry",
+      "fieldtype": "Link",
+      "label": "ERPNext Payment Entry (if applicable)",
+      "options": "Payment Entry"
+    },
+    {
+      "fieldname": "allocations_tab",
+      "fieldtype": "Tab Break",
+      "label": "Allocations"
+    },
+    {
+      "fieldname": "payment_allocations_section",
+      "fieldtype": "Section Break",
+      "label": "Payment Allocations"
+    },
+    {
+      "fieldname": "payment_allocations",
+      "fieldtype": "Table",
+      "label": "Payment Allocations",
+      "options": "CF Payment Allocation"
+    },
+    {
+      "fieldname": "allocation_summary_section",
+      "fieldtype": "Section Break",
+      "label": "Allocation Summary"
+    },
+    {
+      "fieldname": "total_allocated",
+      "fieldtype": "Currency",
+      "label": "Total Allocated",
+      "options": "EGP",
+      "read_only": 1
+    },
+    {
+      "fieldname": "unallocated_amount",
+      "fieldtype": "Currency",
+      "label": "Unallocated Amount",
+      "options": "EGP",
+      "read_only": 1
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Payment",
+      "read_only": 1,
+      "print_hide": 1,
+      "no_copy": 1
+    }
+  ],
+  "field_order": [
+    "details_tab",
+    "payment_details_section",
+    "supplier",
+    "project",
+    "col_pay_1",
+    "payment_date",
+    "amount",
+    "payment_method",
+    "payment_source_tab",
+    "funding_details_section",
+    "paid_by",
+    "funding_source",
+    "col_pay_2",
+    "paid_from",
+    "transfer_reference",
+    "payment_proof",
+    "notes",
+    "erpnext_payment_entry",
+    "allocations_tab",
+    "payment_allocations_section",
+    "payment_allocations",
+    "allocation_summary_section",
+    "total_allocated",
+    "unallocated_amount",
+    "amended_from"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "links": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "owner": "Administrator",
+  "modified_by": "Administrator",
+  "idx": 0,
+  "naming_rule": "Expression",
+  "autoname": "CF-PAY-.#####",
+  "title_field": "supplier",
+  "search_fields": "supplier,project,transfer_reference"
+}

@@ -1,0 +1,199 @@
+{
+  "doctype": "DocType",
+  "name": "CF Work Order",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 1,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "details_section",
+      "fieldtype": "Section Break",
+      "label": "Contract / Work Order"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "supplier",
+      "fieldtype": "Link",
+      "label": "Supplier",
+      "options": "Supplier",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "contract_date",
+      "fieldtype": "Date",
+      "label": "Contract Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "work_category",
+      "fieldtype": "Link",
+      "label": "Work Category",
+      "options": "CF Work Category"
+    },
+    {
+      "fieldname": "col_order_1",
+      "fieldtype": "Column Break",
+      "label": ""
+    },
+    {
+      "fieldname": "start_date",
+      "fieldtype": "Date",
+      "label": "Start Date"
+    },
+    {
+      "fieldname": "end_date",
+      "fieldtype": "Date",
+      "label": "Target End Date"
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Small Text",
+      "label": "Scope / Work Description",
+      "reqd": 1
+    },
+    {
+      "fieldname": "amount_section",
+      "fieldtype": "Section Break",
+      "label": "Agreed Amounts"
+    },
+    {
+      "fieldname": "base_amount",
+      "fieldtype": "Currency",
+      "label": "Initial Contract Amount",
+      "options": "EGP",
+      "reqd": 1
+    },
+    {
+      "fieldname": "variation_amount",
+      "fieldtype": "Currency",
+      "label": "Variations Agreed Before Submission (+ / -)",
+      "options": "EGP",
+      "description": "For later changes, create an additional Work Order and link new costs to it."
+    },
+    {
+      "fieldname": "col_order_2",
+      "fieldtype": "Column Break",
+      "label": ""
+    },
+    {
+      "fieldname": "committed_amount",
+      "fieldtype": "Currency",
+      "label": "Current Contract Total",
+      "options": "EGP",
+      "read_only": 1
+    },
+    {
+      "fieldname": "retention_percent",
+      "fieldtype": "Percent",
+      "label": "Retention Percentage",
+      "description": "Contractual reference only; release/withholding is not automatically deducted from payments."
+    },
+    {
+      "fieldname": "allow_overrun",
+      "fieldtype": "Check",
+      "label": "Allow Approved Costs Above Contract Total"
+    },
+    {
+      "fieldname": "contract_doc",
+      "fieldtype": "Attach",
+      "label": "Signed Agreement / Work Order"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Contract Notes"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Work Order",
+      "read_only": 1,
+      "no_copy": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "naming_rule": "Expression",
+  "autoname": "CF-WO-.#####",
+  "title_field": "description",
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "field_order": [
+    "details_section",
+    "project",
+    "supplier",
+    "contract_date",
+    "work_category",
+    "col_order_1",
+    "start_date",
+    "end_date",
+    "description",
+    "amount_section",
+    "base_amount",
+    "variation_amount",
+    "col_order_2",
+    "committed_amount",
+    "retention_percent",
+    "allow_overrun",
+    "contract_doc",
+    "notes",
+    "amended_from"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "doctype": "DocType",
+  "name": "CF Stage Criterion",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 1,
+  "is_submittable": 0,
+  "track_changes": 0,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "criterion",
+      "fieldtype": "Data",
+      "label": "Inspection Criterion",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "criterion_ar",
+      "fieldtype": "Data",
+      "label": "Criterion (Arabic)"
+    },
+    {
+      "fieldname": "acceptance_standard",
+      "fieldtype": "Small Text",
+      "label": "Expected / Acceptance Criteria"
+    },
+    {
+      "fieldname": "mandatory",
+      "fieldtype": "Check",
+      "label": "Mandatory to Pass",
+      "default": "1",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "photo_required",
+      "fieldtype": "Check",
+      "label": "Evidence Required"
+    }
+  ],
+  "field_order": [
+    "criterion",
+    "criterion_ar",
+    "acceptance_standard",
+    "mandatory",
+    "photo_required"
+  ],
+  "permissions": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

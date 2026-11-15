@@ -1,0 +1,145 @@
+{
+  "doctype": "DocType",
+  "name": "CF Stage Template",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 0,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "identity",
+      "fieldtype": "Section Break",
+      "label": "Handover Stage Definition"
+    },
+    {
+      "fieldname": "stage_code",
+      "fieldtype": "Data",
+      "label": "Stage Code",
+      "reqd": 1,
+      "unique": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "work_category",
+      "fieldtype": "Link",
+      "label": "Work Category",
+      "options": "CF Work Category",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "stage_order",
+      "fieldtype": "Int",
+      "label": "Stage Order",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "stage_name",
+      "fieldtype": "Data",
+      "label": "Stage Name (English)",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "stage_name_ar",
+      "fieldtype": "Data",
+      "label": "Stage Name (Arabic)"
+    },
+    {
+      "fieldname": "hold_point",
+      "fieldtype": "Check",
+      "label": "Mandatory Hold Point",
+      "default": "1"
+    },
+    {
+      "fieldname": "active",
+      "fieldtype": "Check",
+      "label": "Active",
+      "default": "1"
+    },
+    {
+      "fieldname": "scope",
+      "fieldtype": "Small Text",
+      "label": "Scope / Stage Requirements"
+    },
+    {
+      "fieldname": "checks_section",
+      "fieldtype": "Section Break",
+      "label": "Inspection Checklist"
+    },
+    {
+      "fieldname": "checklist",
+      "fieldtype": "Table",
+      "label": "Checklist Criteria",
+      "options": "CF Stage Criterion"
+    }
+  ],
+  "field_order": [
+    "identity",
+    "stage_code",
+    "work_category",
+    "stage_order",
+    "stage_name",
+    "stage_name_ar",
+    "hold_point",
+    "active",
+    "scope",
+    "checks_section",
+    "checklist"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "naming_rule": "By fieldname",
+  "autoname": "field:stage_code",
+  "title_field": "stage_name"
+}

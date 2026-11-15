@@ -1,0 +1,156 @@
+{
+  "doctype": "DocType",
+  "name": "CF Supervision Agreement",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 1,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "details",
+    "project",
+    "customer",
+    "agreement_date",
+    "fee_basis",
+    "fixed_fee",
+    "budget_basis",
+    "fee_percent",
+    "agreed_fee",
+    "description",
+    "linked_sales_invoice",
+    "amended_from"
+  ],
+  "fields": [
+    {
+      "fieldname": "details",
+      "label": "Supervision Agreement",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "project",
+      "label": "Project",
+      "fieldtype": "Link",
+      "reqd": 1,
+      "options": "Project",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "customer",
+      "label": "Customer",
+      "fieldtype": "Link",
+      "reqd": 1,
+      "options": "Customer"
+    },
+    {
+      "fieldname": "agreement_date",
+      "label": "Agreement Date",
+      "fieldtype": "Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "fee_basis",
+      "label": "Fee Basis",
+      "fieldtype": "Select",
+      "reqd": 1,
+      "options": "Fixed\nPercentage of Agreed Budget"
+    },
+    {
+      "fieldname": "fixed_fee",
+      "label": "Fixed Fee",
+      "fieldtype": "Currency",
+      "reqd": 0,
+      "options": "EGP"
+    },
+    {
+      "fieldname": "budget_basis",
+      "label": "Agreed Budget Basis",
+      "fieldtype": "Currency",
+      "reqd": 0,
+      "options": "EGP"
+    },
+    {
+      "fieldname": "fee_percent",
+      "label": "Supervision Fee Percent",
+      "fieldtype": "Percent",
+      "reqd": 0
+    },
+    {
+      "fieldname": "agreed_fee",
+      "label": "Calculated Fee",
+      "fieldtype": "Currency",
+      "reqd": 0,
+      "options": "EGP",
+      "read_only": 1
+    },
+    {
+      "fieldname": "description",
+      "label": "Scope and Terms",
+      "fieldtype": "Small Text",
+      "reqd": 0
+    },
+    {
+      "fieldname": "linked_sales_invoice",
+      "label": "Sales Invoice (if issued)",
+      "fieldtype": "Link",
+      "reqd": 0,
+      "options": "Sales Invoice"
+    },
+    {
+      "fieldname": "amended_from",
+      "label": "Amended From",
+      "fieldtype": "Link",
+      "options": "CF Supervision Agreement",
+      "read_only": 1,
+      "no_copy": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "write": 1,
+      "create": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "write": 1,
+      "create": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "write": 1,
+      "create": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "naming_rule": "Expression",
+  "autoname": "CF-SUP-.#####",
+  "title_field": "project",
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

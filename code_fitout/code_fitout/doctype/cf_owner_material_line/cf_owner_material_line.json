@@ -1,0 +1,59 @@
+{
+  "doctype": "DocType",
+  "name": "CF Owner Material Line",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 1,
+  "is_submittable": 0,
+  "track_changes": 0,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "item_code",
+      "fieldtype": "Link",
+      "label": "Material / Stock Item",
+      "options": "Item",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "quantity",
+      "fieldtype": "Float",
+      "label": "Quantity",
+      "reqd": 1,
+      "in_list_view": 1,
+      "precision": "3"
+    },
+    {
+      "fieldname": "uom",
+      "fieldtype": "Link",
+      "label": "UOM",
+      "options": "UOM",
+      "fetch_from": "item_code.stock_uom",
+      "read_only": 1
+    },
+    {
+      "fieldname": "unit_cost",
+      "fieldtype": "Currency",
+      "label": "Reference Unit Value (EGP)",
+      "options": "EGP",
+      "non_negative": 1
+    },
+    {
+      "fieldname": "remarks",
+      "fieldtype": "Small Text",
+      "label": "Batch / Condition / Notes"
+    }
+  ],
+  "field_order": [
+    "item_code",
+    "quantity",
+    "uom",
+    "unit_cost",
+    "remarks"
+  ],
+  "permissions": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

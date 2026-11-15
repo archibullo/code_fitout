@@ -1,0 +1,127 @@
+{
+  "doctype": "DocType",
+  "name": "CF Supervisor",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 0,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "details",
+    "supervisor_name",
+    "active",
+    "user",
+    "supplier",
+    "personal_details",
+    "phone",
+    "email",
+    "qualification",
+    "notes"
+  ],
+  "fields": [
+    {
+      "fieldname": "details",
+      "fieldtype": "Section Break",
+      "label": "Supervisor Profile"
+    },
+    {
+      "fieldname": "supervisor_name",
+      "fieldtype": "Data",
+      "label": "Supervisor Name",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "active",
+      "fieldtype": "Check",
+      "label": "Active",
+      "default": "1",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "label": "ERPNext User (optional)",
+      "options": "User",
+      "description": "Use if this person logs into ERPNext."
+    },
+    {
+      "fieldname": "supplier",
+      "fieldtype": "Link",
+      "label": "Supplier / External Consultant (optional)",
+      "options": "Supplier",
+      "description": "Only when the supervisor is also a payable Supplier."
+    },
+    {
+      "fieldname": "personal_details",
+      "fieldtype": "Section Break",
+      "label": "Contact and Skills"
+    },
+    {
+      "fieldname": "phone",
+      "fieldtype": "Data",
+      "label": "Mobile / Phone",
+      "permlevel": 1
+    },
+    {
+      "fieldname": "email",
+      "fieldtype": "Data",
+      "label": "Email",
+      "options": "Email",
+      "permlevel": 1
+    },
+    {
+      "fieldname": "qualification",
+      "fieldtype": "Small Text",
+      "label": "Qualification / Engineering Discipline"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Internal Notes",
+      "permlevel": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "write": 1,
+      "create": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "write": 1,
+      "create": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "write": 1,
+      "create": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "naming_rule": "Expression",
+  "autoname": "CF-ENG-.#####",
+  "title_field": "supervisor_name",
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

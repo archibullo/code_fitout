@@ -1,0 +1,175 @@
+{
+  "doctype": "DocType",
+  "name": "CF Trade Handover",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 1,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "summary",
+    "project",
+    "work_category",
+    "inspection_area",
+    "contractor",
+    "handover_date",
+    "stages_header",
+    "stages",
+    "notes",
+    "sign_header",
+    "inspector",
+    "contractor_rep",
+    "owner_rep",
+    "signed_final_copy",
+    "amended_from"
+  ],
+  "fields": [
+    {
+      "fieldname": "summary",
+      "fieldtype": "Section Break",
+      "label": "Final Work Item Handover / المحضر النهائي للبند"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "work_category",
+      "fieldtype": "Link",
+      "label": "Trade / Work Category",
+      "options": "CF Work Category",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "inspection_area",
+      "fieldtype": "Data",
+      "label": "Room / Zone",
+      "reqd": 1
+    },
+    {
+      "fieldname": "contractor",
+      "fieldtype": "Link",
+      "label": "Contractor",
+      "options": "Supplier",
+      "reqd": 1
+    },
+    {
+      "fieldname": "handover_date",
+      "fieldtype": "Date",
+      "label": "Final Handover Date",
+      "reqd": 1,
+      "default": "Today"
+    },
+    {
+      "fieldname": "stages_header",
+      "fieldtype": "Section Break",
+      "label": "All Submitted Stage Handover Minutes"
+    },
+    {
+      "fieldname": "stages",
+      "fieldtype": "Table",
+      "label": "Accepted Stages",
+      "options": "CF Trade Stage Receipt",
+      "read_only": 1
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Final Remarks / Defects / Warranty Notes"
+    },
+    {
+      "fieldname": "sign_header",
+      "fieldtype": "Section Break",
+      "label": "Approval & Signatures"
+    },
+    {
+      "fieldname": "inspector",
+      "fieldtype": "Link",
+      "label": "Responsible Inspector",
+      "options": "User",
+      "default": "__user"
+    },
+    {
+      "fieldname": "contractor_rep",
+      "fieldtype": "Data",
+      "label": "Contractor Representative"
+    },
+    {
+      "fieldname": "owner_rep",
+      "fieldtype": "Data",
+      "label": "Owner Representative"
+    },
+    {
+      "fieldname": "signed_final_copy",
+      "fieldtype": "Attach",
+      "label": "Signed Final Minutes",
+      "reqd": 0
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Trade Handover",
+      "read_only": 1,
+      "no_copy": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "naming_rule": "Expression",
+  "autoname": "CF-TRD-.#####",
+  "title_field": "project",
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

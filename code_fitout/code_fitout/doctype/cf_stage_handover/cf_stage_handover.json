@@ -1,0 +1,244 @@
+{
+  "doctype": "DocType",
+  "name": "CF Stage Handover",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 1,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "identity",
+      "fieldtype": "Section Break",
+      "label": "Work-stage Handover / محضر استلام مرحلة"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project / Apartment",
+      "options": "Project",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "work_category",
+      "fieldtype": "Link",
+      "label": "Work Category",
+      "options": "CF Work Category",
+      "fetch_from": "stage_template.work_category",
+      "read_only": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "stage_template",
+      "fieldtype": "Link",
+      "label": "Inspection Stage Template",
+      "options": "CF Stage Template",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "inspection_area",
+      "fieldtype": "Data",
+      "label": "Area / Room / Zone",
+      "reqd": 1,
+      "description": "Keep identical wording for successive stages in the same zone."
+    },
+    {
+      "fieldname": "inspection_date",
+      "fieldtype": "Date",
+      "label": "Inspection Date",
+      "reqd": 1,
+      "default": "Today"
+    },
+    {
+      "fieldname": "column_details",
+      "fieldtype": "Column Break",
+      "label": ""
+    },
+    {
+      "fieldname": "supplier",
+      "fieldtype": "Link",
+      "label": "Executing Contractor / Supplier",
+      "options": "Supplier",
+      "reqd": 1
+    },
+    {
+      "fieldname": "supervisor_assignment",
+      "fieldtype": "Link",
+      "label": "Resident / Visiting Supervisor Assignment",
+      "options": "CF Supervisor Assignment"
+    },
+    {
+      "fieldname": "inspector",
+      "fieldtype": "Link",
+      "label": "Engineer / Inspector (ERPNext User)",
+      "options": "User",
+      "default": "__user"
+    },
+    {
+      "fieldname": "contractor_representative",
+      "fieldtype": "Data",
+      "label": "Contractor Representative"
+    },
+    {
+      "fieldname": "owner_representative",
+      "fieldtype": "Data",
+      "label": "Owner Representative"
+    },
+    {
+      "fieldname": "result_section",
+      "fieldtype": "Section Break",
+      "label": "Results and Acceptance"
+    },
+    {
+      "fieldname": "outcome",
+      "fieldtype": "Select",
+      "label": "Inspection Outcome",
+      "options": "Accepted\nRejected",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "checklist",
+      "fieldtype": "Table",
+      "label": "Acceptance Checklist",
+      "options": "CF Handover Result",
+      "reqd": 1
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Site Remarks / Nonconformities"
+    },
+    {
+      "fieldname": "reinspection_of",
+      "fieldtype": "Link",
+      "label": "Previous Rejected Inspection (if any)",
+      "options": "CF Stage Handover"
+    },
+    {
+      "fieldname": "test_certificate",
+      "fieldtype": "Attach",
+      "label": "Tests / Pressure / Insulation / Flood Certificate"
+    },
+    {
+      "fieldname": "photos",
+      "fieldtype": "Attach",
+      "label": "Photo Pack / Site Evidence"
+    },
+    {
+      "fieldname": "signature_section",
+      "fieldtype": "Section Break",
+      "label": "Signatures / Printed Minutes"
+    },
+    {
+      "fieldname": "contractor_signed",
+      "fieldtype": "Check",
+      "label": "Contractor Signed Paper Minutes"
+    },
+    {
+      "fieldname": "inspector_signed",
+      "fieldtype": "Check",
+      "label": "Inspector Signed Paper Minutes"
+    },
+    {
+      "fieldname": "owner_signed",
+      "fieldtype": "Check",
+      "label": "Owner Signed Paper Minutes (if required)"
+    },
+    {
+      "fieldname": "signed_copy",
+      "fieldtype": "Attach",
+      "label": "Signed Scan of Handover Minutes"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Stage Handover",
+      "read_only": 1,
+      "no_copy": 1
+    }
+  ],
+  "field_order": [
+    "identity",
+    "project",
+    "work_category",
+    "stage_template",
+    "inspection_area",
+    "inspection_date",
+    "column_details",
+    "supplier",
+    "supervisor_assignment",
+    "inspector",
+    "contractor_representative",
+    "owner_representative",
+    "result_section",
+    "outcome",
+    "checklist",
+    "notes",
+    "reinspection_of",
+    "test_certificate",
+    "photos",
+    "signature_section",
+    "contractor_signed",
+    "inspector_signed",
+    "owner_signed",
+    "signed_copy",
+    "amended_from"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "naming_rule": "Expression",
+  "autoname": "CF-HO-.#####",
+  "title_field": "project"
+}

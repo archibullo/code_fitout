@@ -1,0 +1,203 @@
+{
+  "doctype": "DocType",
+  "name": "CF Site Visit",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 1,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "visit_details",
+      "fieldtype": "Section Break",
+      "label": "Site Visit / Inspection"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "visit_date",
+      "fieldtype": "Date",
+      "label": "Visit Date",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "supervisor_assignment",
+      "fieldtype": "Link",
+      "label": "Supervision Assignment",
+      "options": "CF Supervisor Assignment",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "supervisor",
+      "fieldtype": "Link",
+      "label": "Assigned Supervisor",
+      "options": "CF Supervisor",
+      "read_only": 1
+    },
+    {
+      "fieldname": "visit_kind",
+      "fieldtype": "Select",
+      "label": "Log / Visit Type",
+      "options": "Resident Daily Log\nScheduled Supervision Visit\nExtra / Emergency Visit",
+      "reqd": 1
+    },
+    {
+      "fieldname": "engineer",
+      "fieldtype": "Link",
+      "label": "Logged By ERPNext User (optional)",
+      "options": "User"
+    },
+    {
+      "fieldname": "work_category",
+      "fieldtype": "Link",
+      "label": "Work Category",
+      "options": "CF Work Category"
+    },
+    {
+      "fieldname": "col_visit_1",
+      "fieldtype": "Column Break",
+      "label": ""
+    },
+    {
+      "fieldname": "progress_percent",
+      "fieldtype": "Percent",
+      "label": "Estimated Work Progress (%)"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "Open\nFollow Up\nClosed",
+      "default": "Open",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "hours_on_site",
+      "fieldtype": "Float",
+      "label": "Hours on Site",
+      "description": "Logged duration, not proof of attendance or payroll."
+    },
+    {
+      "fieldname": "next_visit_date",
+      "fieldtype": "Date",
+      "label": "Next Follow-up Date"
+    },
+    {
+      "fieldname": "site_findings",
+      "fieldtype": "Small Text",
+      "label": "Works Inspected / Findings",
+      "reqd": 1
+    },
+    {
+      "fieldname": "issues",
+      "fieldtype": "Small Text",
+      "label": "Defects / Issues"
+    },
+    {
+      "fieldname": "actions",
+      "fieldtype": "Small Text",
+      "label": "Required Actions"
+    },
+    {
+      "fieldname": "photo",
+      "fieldtype": "Attach Image",
+      "label": "Site Photo"
+    },
+    {
+      "fieldname": "related_task",
+      "fieldtype": "Link",
+      "label": "Related Project Task",
+      "options": "Task"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Site Visit",
+      "read_only": 1,
+      "no_copy": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "naming_rule": "Expression",
+  "autoname": "CF-VISIT-.#####",
+  "title_field": "project",
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "field_order": [
+    "visit_details",
+    "project",
+    "visit_date",
+    "supervisor_assignment",
+    "supervisor",
+    "visit_kind",
+    "engineer",
+    "work_category",
+    "col_visit_1",
+    "progress_percent",
+    "status",
+    "hours_on_site",
+    "next_visit_date",
+    "site_findings",
+    "issues",
+    "actions",
+    "photo",
+    "related_task",
+    "amended_from"
+  ]
+}

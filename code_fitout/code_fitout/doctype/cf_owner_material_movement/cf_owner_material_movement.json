@@ -1,0 +1,162 @@
+{
+  "doctype": "DocType",
+  "name": "CF Owner Material Movement",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 1,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "movement_details",
+      "fieldtype": "Section Break",
+      "label": "Owner-Owned Materials (Operational Only)"
+    },
+    {
+      "fieldname": "movement_type",
+      "fieldtype": "Select",
+      "label": "Movement Type",
+      "options": "Receipt\nConsumption\nReturn to Supplier\nTransfer\nStock Adjustment (+)\nStock Adjustment (-)",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "posting_date",
+      "fieldtype": "Date",
+      "label": "Movement Date",
+      "reqd": 1,
+      "default": "Today"
+    },
+    {
+      "fieldname": "source_store",
+      "fieldtype": "Link",
+      "label": "Source Site Store",
+      "options": "CF Site Store"
+    },
+    {
+      "fieldname": "target_store",
+      "fieldtype": "Link",
+      "label": "Target Site Store",
+      "options": "CF Site Store"
+    },
+    {
+      "fieldname": "column",
+      "fieldtype": "Column Break",
+      "label": ""
+    },
+    {
+      "fieldname": "reference",
+      "fieldtype": "Data",
+      "label": "Delivery Note / Return / Transfer Reference"
+    },
+    {
+      "fieldname": "reason",
+      "fieldtype": "Small Text",
+      "label": "Reason / Authorization"
+    },
+    {
+      "fieldname": "handover_received",
+      "fieldtype": "Check",
+      "label": "Receiving Site Confirmed (for transfers)"
+    },
+    {
+      "fieldname": "movement_items",
+      "fieldtype": "Section Break",
+      "label": "Material Lines"
+    },
+    {
+      "fieldname": "items",
+      "fieldtype": "Table",
+      "label": "Materials",
+      "options": "CF Owner Material Line",
+      "reqd": 1
+    },
+    {
+      "fieldname": "proof",
+      "fieldtype": "Attach",
+      "label": "Delivery Note / Signed Transfer / Supplier Return"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Additional Notes"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Owner Material Movement",
+      "read_only": 1,
+      "no_copy": 1
+    }
+  ],
+  "field_order": [
+    "movement_details",
+    "movement_type",
+    "posting_date",
+    "source_store",
+    "target_store",
+    "column",
+    "reference",
+    "reason",
+    "handover_received",
+    "movement_items",
+    "items",
+    "proof",
+    "notes",
+    "amended_from"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "naming_rule": "Expression",
+  "autoname": "CF-MAT-.#####",
+  "title_field": "movement_type"
+}

@@ -1,0 +1,159 @@
+{
+  "actions": [],
+  "doctype": "DocType",
+  "name": "CF BOQ",
+  "module": "Code Fitout",
+  "custom": 0,
+  "engine": "InnoDB",
+  "track_changes": 1,
+  "istable": 0,
+  "is_submittable": 1,
+  "editable_grid": 0,
+  "allow_bulk_edit": 0,
+  "fields": [
+    {
+      "fieldname": "details_tab",
+      "fieldtype": "Tab Break",
+      "label": "Details"
+    },
+    {
+      "fieldname": "boq_details_section",
+      "fieldtype": "Section Break",
+      "label": "BOQ Details"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "reqd": 1,
+      "in_standard_filter": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "boq_date",
+      "fieldtype": "Date",
+      "label": "Boq Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "revision",
+      "fieldtype": "Data",
+      "label": "Revision",
+      "default": "R0"
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Small Text",
+      "label": "Description"
+    },
+    {
+      "fieldname": "quantities_tab",
+      "fieldtype": "Tab Break",
+      "label": "Quantities"
+    },
+    {
+      "fieldname": "boq_lines_section",
+      "fieldtype": "Section Break",
+      "label": "BOQ Lines"
+    },
+    {
+      "fieldname": "boq_lines",
+      "fieldtype": "Table",
+      "label": "Boq Lines",
+      "options": "CF BOQ Line"
+    },
+    {
+      "fieldname": "budget_summary_section",
+      "fieldtype": "Section Break",
+      "label": "Budget Summary"
+    },
+    {
+      "fieldname": "total_budget",
+      "fieldtype": "Currency",
+      "label": "Total Budget",
+      "options": "EGP",
+      "read_only": 1
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF BOQ",
+      "read_only": 1,
+      "print_hide": 1,
+      "no_copy": 1
+    }
+  ],
+  "field_order": [
+    "details_tab",
+    "boq_details_section",
+    "project",
+    "boq_date",
+    "revision",
+    "description",
+    "quantities_tab",
+    "boq_lines_section",
+    "boq_lines",
+    "budget_summary_section",
+    "total_budget",
+    "amended_from"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "links": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "owner": "Administrator",
+  "modified_by": "Administrator",
+  "idx": 0,
+  "naming_rule": "Expression",
+  "autoname": "CF-BOQ-.#####",
+  "title_field": "project",
+  "search_fields": ""
+}

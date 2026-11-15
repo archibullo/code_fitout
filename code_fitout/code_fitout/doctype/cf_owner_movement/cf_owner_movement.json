@@ -1,0 +1,177 @@
+{
+  "actions": [],
+  "doctype": "DocType",
+  "name": "CF Owner Movement",
+  "module": "Code Fitout",
+  "custom": 0,
+  "engine": "InnoDB",
+  "track_changes": 1,
+  "istable": 0,
+  "is_submittable": 1,
+  "editable_grid": 0,
+  "allow_bulk_edit": 0,
+  "fields": [
+    {
+      "fieldname": "details_tab",
+      "fieldtype": "Tab Break",
+      "label": "Details"
+    },
+    {
+      "fieldname": "owner_fund_movement_section",
+      "fieldtype": "Section Break",
+      "label": "Owner Fund Movement"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "reqd": 1,
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "movement_date",
+      "fieldtype": "Date",
+      "label": "Movement Date",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "movement_type",
+      "fieldtype": "Select",
+      "label": "Movement Type",
+      "options": "Owner Advance Received\nRefund to Owner\nPersonal Advance Reimbursement - From Held Funds\nPersonal Advance Reimbursement - Owner Directly\nTransfer Held Funds to Another Project",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "target_project",
+      "fieldtype": "Link",
+      "label": "Target Project (inter-project owner transfer)",
+      "options": "Project"
+    },
+    {
+      "fieldname": "col_owner_1",
+      "fieldtype": "Column Break",
+      "label": "Col Owner 1"
+    },
+    {
+      "fieldname": "amount",
+      "fieldtype": "Currency",
+      "label": "Amount",
+      "options": "EGP",
+      "reqd": 1,
+      "non_negative": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "payment_method",
+      "fieldtype": "Link",
+      "label": "Payment Method",
+      "options": "Mode of Payment"
+    },
+    {
+      "fieldname": "paid_from_to",
+      "fieldtype": "Data",
+      "label": "Paid From To"
+    },
+    {
+      "fieldname": "transfer_reference",
+      "fieldtype": "Data",
+      "label": "Transfer Reference"
+    },
+    {
+      "fieldname": "payment_proof",
+      "fieldtype": "Attach",
+      "label": "Payment Proof"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Owner Movement",
+      "read_only": 1,
+      "print_hide": 1,
+      "no_copy": 1
+    }
+  ],
+  "field_order": [
+    "details_tab",
+    "owner_fund_movement_section",
+    "project",
+    "movement_date",
+    "movement_type",
+    "target_project",
+    "col_owner_1",
+    "amount",
+    "payment_method",
+    "paid_from_to",
+    "transfer_reference",
+    "payment_proof",
+    "notes",
+    "amended_from"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "links": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "owner": "Administrator",
+  "modified_by": "Administrator",
+  "idx": 0,
+  "naming_rule": "Expression",
+  "autoname": "CF-OWNER-.#####",
+  "title_field": "project",
+  "search_fields": ""
+}

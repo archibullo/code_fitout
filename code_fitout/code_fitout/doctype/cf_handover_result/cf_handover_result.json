@@ -1,0 +1,82 @@
+{
+  "doctype": "DocType",
+  "name": "CF Handover Result",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 1,
+  "is_submittable": 0,
+  "track_changes": 0,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "criterion",
+      "fieldtype": "Data",
+      "label": "Inspection Criterion",
+      "reqd": 1,
+      "in_list_view": 1,
+      "read_only": 1
+    },
+    {
+      "fieldname": "criterion_ar",
+      "fieldtype": "Data",
+      "label": "Criterion (Arabic)",
+      "read_only": 1
+    },
+    {
+      "fieldname": "acceptance_standard",
+      "fieldtype": "Small Text",
+      "label": "Expected / Acceptance Criteria",
+      "read_only": 1
+    },
+    {
+      "fieldname": "mandatory",
+      "fieldtype": "Check",
+      "label": "Mandatory",
+      "read_only": 1
+    },
+    {
+      "fieldname": "photo_required",
+      "fieldtype": "Check",
+      "label": "Evidence Required",
+      "read_only": 1
+    },
+    {
+      "fieldname": "result",
+      "fieldtype": "Select",
+      "label": "Inspection Result",
+      "options": "Pass\nFail\nNot Applicable",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "measured_value",
+      "fieldtype": "Data",
+      "label": "Measured Value / Test Reading"
+    },
+    {
+      "fieldname": "remarks",
+      "fieldtype": "Small Text",
+      "label": "Inspector Remarks"
+    },
+    {
+      "fieldname": "evidence",
+      "fieldtype": "Attach",
+      "label": "Photo / Test Record"
+    }
+  ],
+  "field_order": [
+    "criterion",
+    "criterion_ar",
+    "acceptance_standard",
+    "mandatory",
+    "photo_required",
+    "result",
+    "measured_value",
+    "remarks",
+    "evidence"
+  ],
+  "permissions": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

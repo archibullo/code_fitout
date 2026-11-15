@@ -1,0 +1,249 @@
+{
+  "actions": [],
+  "doctype": "DocType",
+  "name": "CF Cost Record",
+  "module": "Code Fitout",
+  "custom": 0,
+  "engine": "InnoDB",
+  "track_changes": 1,
+  "istable": 0,
+  "is_submittable": 1,
+  "editable_grid": 0,
+  "allow_bulk_edit": 0,
+  "fields": [
+    {
+      "fieldname": "details_tab",
+      "fieldtype": "Tab Break",
+      "label": "Details"
+    },
+    {
+      "fieldname": "project_and_supplier_section",
+      "fieldtype": "Section Break",
+      "label": "Project And Supplier"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project",
+      "options": "Project",
+      "reqd": 1,
+      "in_standard_filter": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "supplier",
+      "fieldtype": "Link",
+      "label": "Supplier",
+      "options": "Supplier",
+      "in_standard_filter": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "col_cost_1",
+      "fieldtype": "Column Break",
+      "label": "Col Cost 1"
+    },
+    {
+      "fieldname": "cost_date",
+      "fieldtype": "Date",
+      "label": "Cost Date",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Small Text",
+      "label": "Description",
+      "reqd": 1
+    },
+    {
+      "fieldname": "cost_details_tab",
+      "fieldtype": "Tab Break",
+      "label": "Cost Details"
+    },
+    {
+      "fieldname": "cost_information_section",
+      "fieldtype": "Section Break",
+      "label": "Cost Information"
+    },
+    {
+      "fieldname": "work_category",
+      "fieldtype": "Link",
+      "label": "Work Category",
+      "options": "CF Work Category",
+      "reqd": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "cost_type",
+      "fieldtype": "Select",
+      "label": "Cost Type",
+      "options": "Materials\nLabor\nSubcontracted Services\nEquipment Rental\nTransportation\nSite Expenses\nOther",
+      "reqd": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "col_cost_2",
+      "fieldtype": "Column Break",
+      "label": "Col Cost 2"
+    },
+    {
+      "fieldname": "amount",
+      "fieldtype": "Currency",
+      "label": "Amount",
+      "options": "EGP",
+      "reqd": 1,
+      "non_negative": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "financial_responsibility",
+      "fieldtype": "Select",
+      "label": "Financial Responsibility",
+      "options": "Property Owner\nC.O.D.E.\nTo Be Determined",
+      "default": "To Be Determined",
+      "reqd": 1
+    },
+    {
+      "fieldname": "references_tab",
+      "fieldtype": "Tab Break",
+      "label": "References"
+    },
+    {
+      "fieldname": "supporting_documents_section",
+      "fieldtype": "Section Break",
+      "label": "Supporting Documents"
+    },
+    {
+      "fieldname": "reference_type",
+      "fieldtype": "Select",
+      "label": "Reference Type",
+      "options": "Contract\nQuotation\nSupplier Invoice\nInterim Payment Certificate\nPurchase Receipt\nExpense Receipt\nOther"
+    },
+    {
+      "fieldname": "reference_number",
+      "fieldtype": "Data",
+      "label": "Reference Number"
+    },
+    {
+      "fieldname": "supporting_document",
+      "fieldtype": "Attach",
+      "label": "Supporting Document"
+    },
+    {
+      "fieldname": "boq",
+      "fieldtype": "Link",
+      "label": "Boq",
+      "options": "CF BOQ"
+    },
+    {
+      "fieldname": "work_order",
+      "fieldtype": "Link",
+      "label": "Contract / Work Order",
+      "options": "CF Work Order"
+    },
+    {
+      "fieldname": "accounting_document",
+      "fieldtype": "Link",
+      "label": "ERPNext Purchase Invoice (if applicable)",
+      "options": "Purchase Invoice"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "options": "CF Cost Record",
+      "read_only": 1,
+      "print_hide": 1,
+      "no_copy": 1
+    }
+  ],
+  "field_order": [
+    "details_tab",
+    "project_and_supplier_section",
+    "project",
+    "supplier",
+    "col_cost_1",
+    "cost_date",
+    "description",
+    "cost_details_tab",
+    "cost_information_section",
+    "work_category",
+    "cost_type",
+    "col_cost_2",
+    "amount",
+    "financial_responsibility",
+    "references_tab",
+    "supporting_documents_section",
+    "reference_type",
+    "reference_number",
+    "supporting_document",
+    "boq",
+    "work_order",
+    "accounting_document",
+    "notes",
+    "amended_from"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "links": [],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "owner": "Administrator",
+  "modified_by": "Administrator",
+  "idx": 0,
+  "naming_rule": "Expression",
+  "autoname": "CF-COST-.#####",
+  "title_field": "description",
+  "search_fields": "supplier,project,description"
+}

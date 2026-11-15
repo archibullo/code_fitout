@@ -1,0 +1,132 @@
+{
+  "doctype": "DocType",
+  "name": "CF Site Store",
+  "module": "Code Fitout",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 0,
+  "track_changes": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "site",
+      "fieldtype": "Section Break",
+      "label": "Site Store / مخزن الموقع"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "label": "Project / Apartment",
+      "options": "Project",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "store_name",
+      "fieldtype": "Data",
+      "label": "Store Name",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "stock_mode",
+      "fieldtype": "Select",
+      "label": "Stock Ownership / Ledger",
+      "options": "Owner-Owned Operational Stock\nCompany-Owned ERP Stock",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "company",
+      "fieldtype": "Link",
+      "label": "Company",
+      "options": "Company",
+      "read_only": 1
+    },
+    {
+      "fieldname": "erp_warehouse",
+      "fieldtype": "Link",
+      "label": "Linked ERPNext Warehouse (Company Stock)",
+      "options": "Warehouse"
+    },
+    {
+      "fieldname": "active",
+      "fieldtype": "Check",
+      "label": "Active",
+      "default": "1"
+    },
+    {
+      "fieldname": "location",
+      "fieldtype": "Small Text",
+      "label": "Store Location / Responsible Keeper"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Store Notes"
+    }
+  ],
+  "field_order": [
+    "site",
+    "project",
+    "store_name",
+    "stock_mode",
+    "company",
+    "erp_warehouse",
+    "active",
+    "location",
+    "notes"
+  ],
+  "permissions": [
+    {
+      "role": "CF Fitout Viewer",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1
+    },
+    {
+      "role": "CF Fitout Editor",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1
+    },
+    {
+      "role": "CF Fitout Approver",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    },
+    {
+      "role": "System Manager",
+      "permlevel": 0,
+      "read": 1,
+      "select": 1,
+      "report": 1,
+      "print": 1,
+      "create": 1,
+      "write": 1,
+      "submit": 1,
+      "cancel": 1,
+      "amend": 1
+    }
+  ],
+  "states": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "naming_rule": "Expression",
+  "autoname": "CF-STORE-.#####",
+  "title_field": "store_name"
+}
