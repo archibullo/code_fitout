@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=80", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code_fitout"
+version = "0.4.0"
+description = "C.O.D.E. Fitout Management for ERPNext"
+readme = "README.md"
+requires-python = ">=3.14"
+license = "MIT"
+authors = [{ name = "C.O.D.E." }]
+dependencies = []
+
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
+erpnext = ">=16.0.0,<17.0.0"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["code_fitout*"]
+
+[tool.setuptools.package-data]
+"code_fitout" = ["**/*.json", "**/*.js", "**/*.html", "**/*.css", "**/*.md", "modules.txt", "patches.txt"]

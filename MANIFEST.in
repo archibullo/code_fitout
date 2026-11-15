@@ -1,0 +1,2 @@
+recursive-include code_fitout *.json *.js *.html *.css *.md *.txt
+include LICENSE README.md
