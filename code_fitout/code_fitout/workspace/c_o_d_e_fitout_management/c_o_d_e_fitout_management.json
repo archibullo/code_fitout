@@ -1,0 +1,102 @@
+{
+  "doctype": "Workspace",
+  "name": "C.O.D.E. Fitout Management",
+  "label": "C.O.D.E. Fitout Management",
+  "title": "C.O.D.E. Fitout Management",
+  "app": "code_fitout",
+  "module": "Code Fitout",
+  "public": 1,
+  "is_hidden": 0,
+  "icon": "building-2",
+  "type": "Workspace",
+  "content": "[{\"id\": \"cfheader0\", \"type\": \"header\", \"data\": {\"text\": \"C.O.D.E. Fitout Management\", \"level\": 4, \"col\": 12}}, {\"id\": \"cfshortcut0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Projects\", \"col\": 3}}, {\"id\": \"cfshortcut1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Customers\", \"col\": 3}}, {\"id\": \"cfshortcut2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Suppliers\", \"col\": 3}}, {\"id\": \"cfshortcut3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Fitout Costs\", \"col\": 3}}, {\"id\": \"cfshortcut4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Contractor Payments\", \"col\": 3}}, {\"id\": \"cfshortcut5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Owner Funds\", \"col\": 3}}, {\"id\": \"cfshortcut6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"BOQ / Budgets\", \"col\": 3}}, {\"id\": \"cfshortcut7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Work Categories\", \"col\": 3}}, {\"id\": \"cfshortcut_work_orders\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Work Orders\", \"col\": 3}}, {\"id\": \"cfshortcut_site_visits\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Site Visits\", \"col\": 3}}, {\"id\": \"cf-supervisors\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supervisors\", \"col\": 3}}, {\"id\": \"cf-supervision-assignments\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supervision Assignments\", \"col\": 3}}, {\"id\": \"cf-supervision-coverage\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supervision Coverage\", \"col\": 3}}]",
+  "charts": [],
+  "shortcuts": [
+    {
+      "label": "Projects",
+      "type": "DocType",
+      "link_to": "Project",
+      "doc_view": "List"
+    },
+    {
+      "label": "Customers",
+      "type": "DocType",
+      "link_to": "Customer",
+      "doc_view": "List"
+    },
+    {
+      "label": "Suppliers",
+      "type": "DocType",
+      "link_to": "Supplier",
+      "doc_view": "List"
+    },
+    {
+      "label": "Fitout Costs",
+      "type": "DocType",
+      "link_to": "CF Cost Record",
+      "doc_view": "List"
+    },
+    {
+      "label": "Contractor Payments",
+      "type": "DocType",
+      "link_to": "CF Payment",
+      "doc_view": "List"
+    },
+    {
+      "label": "Owner Funds",
+      "type": "DocType",
+      "link_to": "CF Owner Movement",
+      "doc_view": "List"
+    },
+    {
+      "label": "BOQ / Budgets",
+      "type": "DocType",
+      "link_to": "CF BOQ",
+      "doc_view": "List"
+    },
+    {
+      "label": "Work Categories",
+      "type": "DocType",
+      "link_to": "CF Work Category",
+      "doc_view": "List"
+    },
+    {
+      "label": "Work Orders",
+      "type": "DocType",
+      "link_to": "CF Work Order",
+      "doc_view": "List"
+    },
+    {
+      "label": "Site Visits",
+      "type": "DocType",
+      "link_to": "CF Site Visit",
+      "doc_view": "List"
+    },
+    {
+      "label": "Supervisors",
+      "type": "DocType",
+      "link_to": "CF Supervisor",
+      "doc_view": "List"
+    },
+    {
+      "label": "Supervision Assignments",
+      "type": "DocType",
+      "link_to": "CF Supervisor Assignment",
+      "doc_view": "List"
+    },
+    {
+      "label": "Supervision Coverage",
+      "type": "Report",
+      "link_to": "CF Supervision Coverage"
+    }
+  ],
+  "links": [],
+  "quick_lists": [],
+  "custom_blocks": [],
+  "number_cards": [],
+  "roles": [],
+  "owner": "Administrator",
+  "docstatus": 0,
+  "sequence_id": 1,
+  "sidebar_items": []
+}

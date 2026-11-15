@@ -1,0 +1,26 @@
+{
+  "doctype": "Report",
+  "name": "CF Owner Balance",
+  "report_name": "CF Owner Balance",
+  "report_type": "Script Report",
+  "is_standard": "Yes",
+  "module": "Code Fitout",
+  "ref_doctype": "CF Owner Movement",
+  "disabled": 0,
+  "add_total_row": 0,
+  "prepared_report": 0,
+  "roles": [
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "CF Fitout Approver"
+    },
+    {
+      "role": "CF Fitout Viewer"
+    },
+    {
+      "role": "CF Fitout Editor"
+    }
+  ]
+}
