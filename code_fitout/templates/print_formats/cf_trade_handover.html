@@ -1,0 +1,13 @@
+<div style="font-family:Arial,DejaVu Sans,sans-serif;font-size:12px">
+<h2 style="text-align:center">محضر استلام نهائي لبند تشطيب / Final Trade Handover</h2>
+<p><b>Project / الشقة:</b> {{ doc.project|e }} &nbsp; <b>Number:</b> {{ doc.name|e }}</p>
+<p><b>Trade / البند:</b> {{ doc.work_category|e }} &nbsp; <b>Zone:</b> {{ doc.inspection_area|e }}</p>
+<p><b>Contractor / المقاول:</b> {{ doc.contractor|e }} &nbsp; <b>Date:</b> {{ doc.handover_date|e }}</p>
+<table style="width:100%;border-collapse:collapse" border="1" cellpadding="6"><thead><tr><th>#</th><th>Stage / مرحلة الاستلام</th><th>Stage Contractor / مقاول المرحلة</th><th>Accepted minutes / رقم المحضر</th><th>Date</th></tr></thead><tbody>
+{% for r in doc.stages %}<tr><td>{{ loop.index }}</td><td>{{ r.stage_template|e }}</td><td>{{ (r.supplier or '')|e }}</td><td>{{ r.accepted_handover|e }}</td><td>{{ r.date|e }}</td></tr>{% endfor %}
+</tbody></table>
+<p><b>Final notes / ملاحظات:</b> {{ (doc.notes or '—')|e }}</p>
+<p><b>Signed copy / النسخة الموقعة:</b> {{ doc.signed_final_copy|e }}</p>
+<table style="width:100%" border="1" cellpadding="8"><tr><th>Contractor / المقاول</th><th>Inspector / المهندس</th><th>Owner / المالك</th></tr>
+<tr><td>{{ (doc.contractor_rep or doc.contractor)|e }}<p>Signature: __________</p></td><td>{{ (doc.inspector or '')|e }}<p>Signature: __________</p></td><td>{{ (doc.owner_rep or '')|e }}<p>Signature: __________</p></td></tr></table>
+<p style="font-size:10px">Final acceptance depends on approved project specifications and stage inspection minutes, not on this summary alone. Printed signatures require signed originals.</p></div>

@@ -1,0 +1,3906 @@
+[
+  {
+    "stage_code": "CF-STG-HVAC-AIR-CONDITIONING-01",
+    "work_category": "HVAC / Air Conditioning",
+    "stage_order": 1,
+    "stage_name": "Routes and equipment locations",
+    "stage_name_ar": "مراجعة المسارات ومواقع الوحدات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Coordinates, equipment clearances and approved routing match drawings",
+        "criterion_ar": "مطابقة المسارات ومواقع الأجهزة والخلوصات للرسومات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-HVAC-AIR-CONDITIONING-02",
+    "work_category": "HVAC / Air Conditioning",
+    "stage_order": 2,
+    "stage_name": "Copper and condensate concealed works",
+    "stage_name_ar": "استلام مواسير النحاس وصرف التكثيف قبل التغطية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Copper joints, insulation, drain fall, supports and pressure/leak tests reviewed",
+        "criterion_ar": "فحص الوصلات والعزل والميول والتثبيت واختبار الضغط والتسريب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-HVAC-AIR-CONDITIONING-03",
+    "work_category": "HVAC / Air Conditioning",
+    "stage_order": 3,
+    "stage_name": "Mechanical and electrical equipment fixing",
+    "stage_name_ar": "تركيب الوحدات والتوصيلات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Anchorage, ventilation, isolation and power connections verified",
+        "criterion_ar": "تثبيت الوحدات والتهوية والعزل والتوصيلات الكهربائية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-HVAC-AIR-CONDITIONING-04",
+    "work_category": "HVAC / Air Conditioning",
+    "stage_order": 4,
+    "stage_name": "Testing and commissioning",
+    "stage_name_ar": "التجارب والتشغيل والتسليم",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Run tests, temperatures, drainage and electrical protections recorded",
+        "criterion_ar": "تسجيل نتائج التشغيل والحرارة والصرف والحماية الكهربائية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELECTRICAL-WORKS-01",
+    "work_category": "Electrical Works",
+    "stage_order": 1,
+    "stage_name": "Set-out and electrical box positions",
+    "stage_name_ar": "استلام تخطيط النقاط وعلب الكهرباء",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Outlet positions, box levels, cable routes and electrical layout verified",
+        "criterion_ar": "فحص أماكن المخارج والعلب والمناسيب والمسارات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELECTRICAL-WORKS-02",
+    "work_category": "Electrical Works",
+    "stage_order": 2,
+    "stage_name": "Conduits before plaster or closing",
+    "stage_name_ar": "استلام مواسير الكهرباء قبل المحارة أو الغلق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Conduit continuity, bend radius, segregation and cable pull access",
+        "criterion_ar": "فحص استمرارية المواسير والمنحنيات والفصل وإمكانية سحب الأسلاك",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELECTRICAL-WORKS-03",
+    "work_category": "Electrical Works",
+    "stage_order": 3,
+    "stage_name": "Wiring and testing",
+    "stage_name_ar": "استلام سحب الأسلاك والاختبارات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Conductor sizes, circuit IDs, earthing and insulation/continuity tests",
+        "criterion_ar": "مطابقة مقاطع الأسلاك والتسمية والأرضي واختبار العزل والاستمرارية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELECTRICAL-WORKS-04",
+    "work_category": "Electrical Works",
+    "stage_order": 4,
+    "stage_name": "Panel and protective devices",
+    "stage_name_ar": "استلام اللوحات وأجهزة الحماية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Protection ratings, circuit schedules, earthing and RCD/RCBO tests",
+        "criterion_ar": "مطابقة القواطع وجدول الدوائر والأرضي واختبار وسائل الحماية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELECTRICAL-WORKS-05",
+    "work_category": "Electrical Works",
+    "stage_order": 5,
+    "stage_name": "Final fittings and operation",
+    "stage_name_ar": "الاستلام النهائي لنقاط الكهرباء",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Socket polarity, switches, lighting and safe energization tested",
+        "criterion_ar": "اختبار القطبية والمفاتيح والإنارة والتشغيل الآمن",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLUMBING-SANITARY-01",
+    "work_category": "Plumbing & Sanitary",
+    "stage_order": 1,
+    "stage_name": "Water supply rough-in",
+    "stage_name_ar": "استلام تأسيس التغذية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Pipe material and diameter, routes, fixing and pressure test verified",
+        "criterion_ar": "مطابقة المواسير والأقطار والمسارات والتثبيت واختبار الضغط",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLUMBING-SANITARY-02",
+    "work_category": "Plumbing & Sanitary",
+    "stage_order": 2,
+    "stage_name": "Drainage and vent rough-in",
+    "stage_name_ar": "استلام تأسيس الصرف والتهوية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Drain slopes, joint watertightness, traps and cleanout access verified",
+        "criterion_ar": "فحص ميول الصرف والوصلات والتهوية والسيفونات وفتحات التسليك",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLUMBING-SANITARY-03",
+    "work_category": "Plumbing & Sanitary",
+    "stage_order": 3,
+    "stage_name": "Wet-area waterproofing inspection",
+    "stage_name_ar": "استلام العزل بمناطق البلل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Waterproof layer continuity, upstands and flood test certificate",
+        "criterion_ar": "استلام استمرارية العزل وارتفاعاته ومحضر اختبار الغمر",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLUMBING-SANITARY-04",
+    "work_category": "Plumbing & Sanitary",
+    "stage_order": 4,
+    "stage_name": "Fixture mounting and connections",
+    "stage_name_ar": "استلام تركيب الأدوات الصحية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Fixtures fixed, service access, supply and discharge connections tested",
+        "criterion_ar": "فحص تثبيت الأدوات والصيانة والتغذية والصرف",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLUMBING-SANITARY-05",
+    "work_category": "Plumbing & Sanitary",
+    "stage_order": 5,
+    "stage_name": "Final plumbing testing",
+    "stage_name_ar": "الاستلام النهائي للسباكة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Leakage, hot and cold operation, traps, flow and drainage test",
+        "criterion_ar": "فحص التسريب والتشغيل والتدفق واختبار الصرف",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CIVIL-WORKS-01",
+    "work_category": "Civil Works",
+    "stage_order": 1,
+    "stage_name": "Survey and levels",
+    "stage_name_ar": "استلام المحاور والمناسيب",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Site dimensions and approved levels verified",
+        "criterion_ar": "مطابقة المحاور والأبعاد والمناسيب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CIVIL-WORKS-02",
+    "work_category": "Civil Works",
+    "stage_order": 2,
+    "stage_name": "Substrate and structural coordination",
+    "stage_name_ar": "فحص الأسطح والتنسيق الإنشائي",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Substrate ready; structural interventions approved by engineer",
+        "criterion_ar": "جاهزية الأسطح واعتماد أي تدخل إنشائي من المهندس المختص",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CIVIL-WORKS-03",
+    "work_category": "Civil Works",
+    "stage_order": 3,
+    "stage_name": "As-built and final finishing",
+    "stage_name_ar": "الاستلام النهائي للمباني المدنية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Dimensions, finish quality and as-built records checked",
+        "criterion_ar": "فحص الأبعاد وجودة التشطيب ورسومات المنفذ",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MASONRY-BLOCKWORK-01",
+    "work_category": "Masonry & Blockwork",
+    "stage_order": 1,
+    "stage_name": "Set-out and wall lines",
+    "stage_name_ar": "استلام تخطيط المباني",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Wall lines, thicknesses and opening positions match drawings",
+        "criterion_ar": "مطابقة محاور الحوائط والسمك وفتحات الأبواب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MASONRY-BLOCKWORK-02",
+    "work_category": "Masonry & Blockwork",
+    "stage_order": 2,
+    "stage_name": "Blockwork bonding and connections",
+    "stage_name_ar": "استلام المباني أثناء التنفيذ",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Bonding, joints, ties, lintel bearing and verticality checked",
+        "criterion_ar": "فحص الرباط والعراميس والربط والعتبات والرأسية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MASONRY-BLOCKWORK-03",
+    "work_category": "Masonry & Blockwork",
+    "stage_order": 3,
+    "stage_name": "Pre-plaster wall handover",
+    "stage_name_ar": "استلام المباني قبل المحارة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Corners, alignments, anchors and service openings inspected",
+        "criterion_ar": "فحص الأركان والاستقامة والمرابط وفتحات الخدمات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLASTERING-01",
+    "work_category": "Plastering",
+    "stage_order": 1,
+    "stage_name": "Substrate and preparation",
+    "stage_name_ar": "استلام تجهيز أسطح المحارة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Surface cleaning, roughening, mesh and guide dots checked",
+        "criterion_ar": "فحص نظافة وتخشين الأسطح والشبك والبؤج",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLASTERING-02",
+    "work_category": "Plastering",
+    "stage_order": 2,
+    "stage_name": "Base coat and geometry",
+    "stage_name_ar": "استلام طبقة الطرطشة والبطانة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Bond, thickness, corners, flatness and plumb checked",
+        "criterion_ar": "فحص التماسك والسمك والأركان والاستواء والرأسية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PLASTERING-03",
+    "work_category": "Plastering",
+    "stage_order": 3,
+    "stage_name": "Finish coat and curing",
+    "stage_name_ar": "الاستلام النهائي للمحارة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Finish evenness, cracks, curing and moisture condition checked",
+        "criterion_ar": "فحص استواء السطح والشروخ والمعالجة والرطوبة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PAINTING-WALL-FINISHES-01",
+    "work_category": "Painting & Wall Finishes",
+    "stage_order": 1,
+    "stage_name": "Surface moisture and repairs",
+    "stage_name_ar": "استلام معالجة وتجهيز الأسطح",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Substrate moisture, cracks and filler compatibility approved",
+        "criterion_ar": "مراجعة الرطوبة والشروخ والمعالجات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PAINTING-WALL-FINISHES-02",
+    "work_category": "Painting & Wall Finishes",
+    "stage_order": 2,
+    "stage_name": "Primer and putty",
+    "stage_name_ar": "استلام السيلر والمعجون",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Primer coverage, putty flatness and sanding inspected",
+        "criterion_ar": "فحص تغطية السيلر واستواء المعجون والصنفرة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PAINTING-WALL-FINISHES-03",
+    "work_category": "Painting & Wall Finishes",
+    "stage_order": 3,
+    "stage_name": "Finish coats and color",
+    "stage_name_ar": "استلام أوجه الدهان النهائية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Coat coverage, uniform color and approved sample checked",
+        "criterion_ar": "فحص التجانس واللون ومطابقة العينة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-PAINTING-WALL-FINISHES-04",
+    "work_category": "Painting & Wall Finishes",
+    "stage_order": 4,
+    "stage_name": "Final touch-up handover",
+    "stage_name_ar": "الاستلام النهائي للدهانات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "No stains, missed edges, runs or visible repair patches",
+        "criterion_ar": "عدم وجود تسييل أو بقع أو عيوب أو إصلاحات ظاهرة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CARPENTRY-WOODWORK-01",
+    "work_category": "Carpentry & Woodwork",
+    "stage_order": 1,
+    "stage_name": "Measurements and shop drawings",
+    "stage_name_ar": "استلام المقاسات ورسومات الورشة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Dimensions, species, finish sample and hardware approved",
+        "criterion_ar": "اعتماد الأبعاد ونوع الخشب والعينات والإكسسوارات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CARPENTRY-WOODWORK-02",
+    "work_category": "Carpentry & Woodwork",
+    "stage_order": 2,
+    "stage_name": "Frame and substrate fixing",
+    "stage_name_ar": "استلام تثبيت الحلوق والأساسات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Frames square, plumb and well anchored",
+        "criterion_ar": "فحص تربيع الحلوق والرأسية والتثبيت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CARPENTRY-WOODWORK-03",
+    "work_category": "Carpentry & Woodwork",
+    "stage_order": 3,
+    "stage_name": "Installed panels and finish",
+    "stage_name_ar": "استلام التركيبات والتشطيب",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Gaps, alignment, edge sealing and finish quality checked",
+        "criterion_ar": "فحص الفواصل والمحاذاة والحواف وجودة التشطيب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CARPENTRY-WOODWORK-04",
+    "work_category": "Carpentry & Woodwork",
+    "stage_order": 4,
+    "stage_name": "Final hardware and operation",
+    "stage_name_ar": "الاستلام النهائي للنجارة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Doors, drawers and locks operate smoothly",
+        "criterion_ar": "اختبار عمل الضلف والأدراج والأقفال",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-DOORS-JOINERY-01",
+    "work_category": "Doors & Joinery",
+    "stage_order": 1,
+    "stage_name": "Openings and frames",
+    "stage_name_ar": "استلام الفتحات والحلوق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Opening size, frame level, anchorage and clearance",
+        "criterion_ar": "فحص أبعاد الفتحات ومناسيب الحلوق والتثبيت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-DOORS-JOINERY-02",
+    "work_category": "Doors & Joinery",
+    "stage_order": 2,
+    "stage_name": "Leaves and seals",
+    "stage_name_ar": "استلام الضلف والحشوات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Door leaf clearances, seals and surface finish",
+        "criterion_ar": "فحص خلوص الضلف والحشوات والتشطيب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-DOORS-JOINERY-03",
+    "work_category": "Doors & Joinery",
+    "stage_order": 3,
+    "stage_name": "Hardware and handover",
+    "stage_name_ar": "الاستلام النهائي للأبواب",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Handles, hinges, closers, locks and safe movement",
+        "criterion_ar": "اختبار المفصلات والكوالين والأكسسوارات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ALUMINUM-GLASS-01",
+    "work_category": "Aluminum & Glass",
+    "stage_order": 1,
+    "stage_name": "Opening survey and fabrication approval",
+    "stage_name_ar": "استلام مقاسات الفتحات والعينة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Profiles, glazing specification, colors and opening size",
+        "criterion_ar": "مطابقة قطاعات الألومنيوم والزجاج والألوان والأبعاد",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ALUMINUM-GLASS-02",
+    "work_category": "Aluminum & Glass",
+    "stage_order": 2,
+    "stage_name": "Frames and anchoring",
+    "stage_name_ar": "استلام الحلوق والتثبيت",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Frame alignment, anchors, drainage and thermal break",
+        "criterion_ar": "فحص التثبيت والاستقامة وفتحات تصريف المياه",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ALUMINUM-GLASS-03",
+    "work_category": "Aluminum & Glass",
+    "stage_order": 3,
+    "stage_name": "Glazing and perimeter seals",
+    "stage_name_ar": "استلام الزجاج والسيلكون",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Glass seating, safety glazing, seals and waterproofing",
+        "criterion_ar": "فحص تثبيت الزجاج ومواصفاته والعزل المحيطي",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ALUMINUM-GLASS-04",
+    "work_category": "Aluminum & Glass",
+    "stage_order": 4,
+    "stage_name": "Operation and leak checks",
+    "stage_name_ar": "الاستلام النهائي للألوميتال",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Locks, sliders, joints and watertightness tested",
+        "criterion_ar": "اختبار الحركة والكوالين والإحكام ومنع التسرب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GYPSUM-BOARD-FALSE-CEILINGS-01",
+    "work_category": "Gypsum Board & False Ceilings",
+    "stage_order": 1,
+    "stage_name": "Ceiling set-out and MEP coordination",
+    "stage_name_ar": "استلام المناسيب وتنسيق الخدمات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Ceiling heights, access panels and MEP clearances",
+        "criterion_ar": "مطابقة المناسيب وفتحات الصيانة والتنسيق مع الخدمات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GYPSUM-BOARD-FALSE-CEILINGS-02",
+    "work_category": "Gypsum Board & False Ceilings",
+    "stage_order": 2,
+    "stage_name": "Hangers and metal framing",
+    "stage_name_ar": "استلام التعليقات والهيكل المعدني",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Support spacing, anchorage, bracing and corrosion control",
+        "criterion_ar": "فحص المسافات والتثبيت والتدعيم والحماية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GYPSUM-BOARD-FALSE-CEILINGS-03",
+    "work_category": "Gypsum Board & False Ceilings",
+    "stage_order": 3,
+    "stage_name": "Board installation before closure",
+    "stage_name_ar": "استلام الألواح قبل الإغلاق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Board type, thickness, joints, fire/moisture rating and openings",
+        "criterion_ar": "فحص أنواع الألواح والسماكات والواصلات والفتحات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GYPSUM-BOARD-FALSE-CEILINGS-04",
+    "work_category": "Gypsum Board & False Ceilings",
+    "stage_order": 4,
+    "stage_name": "Joint treatment and final ceiling",
+    "stage_name_ar": "استلام الفواصل والتشطيب النهائي",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Joint tape, level, cracks and finished surfaces inspected",
+        "criterion_ar": "فحص الشريط والمستوى والشروخ والسطح النهائي",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FLOORING-TILING-01",
+    "work_category": "Flooring & Tiling",
+    "stage_order": 1,
+    "stage_name": "Floor substrate and levels",
+    "stage_name_ar": "استلام تجهيز الأرضيات والمناسيب",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Substrate curing, level and wet-area slope verified",
+        "criterion_ar": "فحص معالجة الطبقة التحتية والمناسيب والميول",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FLOORING-TILING-02",
+    "work_category": "Flooring & Tiling",
+    "stage_order": 2,
+    "stage_name": "Waterproofing where applicable",
+    "stage_name_ar": "استلام عزل مناطق البلل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Continuity, corners and flood test inspected",
+        "criterion_ar": "فحص العزل والزوايا واختبار الغمر",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FLOORING-TILING-03",
+    "work_category": "Flooring & Tiling",
+    "stage_order": 3,
+    "stage_name": "Tile set-out and laying",
+    "stage_name_ar": "استلام توزيع وتركيب البلاط",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Pattern, cuts, adhesion, lippage and joints inspected",
+        "criterion_ar": "مطابقة التوزيع والقصات والتماسك والفروق والفواصل",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FLOORING-TILING-04",
+    "work_category": "Flooring & Tiling",
+    "stage_order": 4,
+    "stage_name": "Grouting and final handover",
+    "stage_name_ar": "الاستلام النهائي للسيراميك",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Grout, soundness, drainage, cleanliness and protection",
+        "criterion_ar": "فحص الروبة والتطبيل والصرف والنظافة والحماية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MARBLE-GRANITE-01",
+    "work_category": "Marble & Granite",
+    "stage_order": 1,
+    "stage_name": "Material selection and dimensions",
+    "stage_name_ar": "استلام عينات الرخام والجرانيت",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Stone grade, thickness, defects and cutting layouts",
+        "criterion_ar": "اعتماد العينات والسمك والعيوب والقصات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MARBLE-GRANITE-02",
+    "work_category": "Marble & Granite",
+    "stage_order": 2,
+    "stage_name": "Substrate and anchoring",
+    "stage_name_ar": "استلام التجهيز والتثبيت",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Supports, bed and fixing system compatible with location",
+        "criterion_ar": "فحص التجهيز والدعامات ووسائل التثبيت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MARBLE-GRANITE-03",
+    "work_category": "Marble & Granite",
+    "stage_order": 3,
+    "stage_name": "Installation and polish",
+    "stage_name_ar": "استلام التركيب والتلميع",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Flatness, joints, staining, edge finish and sealer",
+        "criterion_ar": "فحص الاستواء والفواصل والبقع والحواف والتلميع",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-WATERPROOFING-01",
+    "work_category": "Waterproofing",
+    "stage_order": 1,
+    "stage_name": "Substrate and corners",
+    "stage_name_ar": "استلام تجهيز السطح والوزرات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Substrate dry and clean; corner coves and slopes verified",
+        "criterion_ar": "جفاف ونظافة السطح وتنفيذ الوزرات والميول",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-WATERPROOFING-02",
+    "work_category": "Waterproofing",
+    "stage_order": 2,
+    "stage_name": "Primer and membrane installation",
+    "stage_name_ar": "استلام البرايمر وطبقات العزل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Continuity, laps, penetrations and upstands checked",
+        "criterion_ar": "فحص استمرارية العزل والركوبات والاختراقات والارتفاعات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-WATERPROOFING-03",
+    "work_category": "Waterproofing",
+    "stage_order": 3,
+    "stage_name": "Flood/pressure test before protection",
+    "stage_name_ar": "اختبار الغمر قبل طبقة الحماية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Test duration and results as specified and recorded",
+        "criterion_ar": "توثيق زمن ونتائج الاختبار طبقًا للمواصفات المعتمدة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-WATERPROOFING-04",
+    "work_category": "Waterproofing",
+    "stage_order": 4,
+    "stage_name": "Protection and final acceptance",
+    "stage_name_ar": "استلام طبقة الحماية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Protection layer intact and drains clear",
+        "criterion_ar": "فحص حماية العزل وسلامة فتحات الصرف",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-THERMAL-ACOUSTIC-INSULATION-01",
+    "work_category": "Thermal & Acoustic Insulation",
+    "stage_order": 1,
+    "stage_name": "Material and substrate inspection",
+    "stage_name_ar": "استلام المواد والسطح",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Thickness, density, fire rating and surface preparation",
+        "criterion_ar": "مطابقة السمك والكثافة وتصنيف الحريق وتجهيز السطح",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-THERMAL-ACOUSTIC-INSULATION-02",
+    "work_category": "Thermal & Acoustic Insulation",
+    "stage_order": 2,
+    "stage_name": "Insulation installation",
+    "stage_name_ar": "استلام تركيب العزل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Continuous coverage, fixings, penetrations and joint sealing",
+        "criterion_ar": "فحص الاستمرارية والتثبيت والاختراقات والواصلات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-THERMAL-ACOUSTIC-INSULATION-03",
+    "work_category": "Thermal & Acoustic Insulation",
+    "stage_order": 3,
+    "stage_name": "Pre-closing verification",
+    "stage_name_ar": "استلام العزل قبل الغلق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Thermal/acoustic continuity tested or visually verified",
+        "criterion_ar": "اختبار أو معاينة استمرارية العزل قبل إغلاقه",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-METALWORK-STEEL-01",
+    "work_category": "Metalwork & Steel",
+    "stage_order": 1,
+    "stage_name": "Shop drawings and anchors",
+    "stage_name_ar": "استلام رسومات الورشة والمرابط",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Steel size, weld schedule, supports and anchors approved",
+        "criterion_ar": "اعتماد القطاعات واللحامات والدعامات والتثبيت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-METALWORK-STEEL-02",
+    "work_category": "Metalwork & Steel",
+    "stage_order": 2,
+    "stage_name": "Fabrication welds and coating",
+    "stage_name_ar": "استلام التصنيع واللحام والدهان",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Weld quality and corrosion protection checked",
+        "criterion_ar": "فحص جودة اللحام وحماية المعادن",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-METALWORK-STEEL-03",
+    "work_category": "Metalwork & Steel",
+    "stage_order": 3,
+    "stage_name": "Installation and final safety",
+    "stage_name_ar": "استلام التركيب والأمان",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Alignment, fixings, load path and edge protection checked",
+        "criterion_ar": "فحص الاستقامة والتثبيت والأمان",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-KITCHENS-CABINETS-01",
+    "work_category": "Kitchens & Cabinets",
+    "stage_order": 1,
+    "stage_name": "Shop drawings and services coordination",
+    "stage_name_ar": "استلام الرسومات والتنسيق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Final dimensions, service openings and appliance clearances",
+        "criterion_ar": "مراجعة المقاسات وفتحات الخدمات والأجهزة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-KITCHENS-CABINETS-02",
+    "work_category": "Kitchens & Cabinets",
+    "stage_order": 2,
+    "stage_name": "Carcasses and fixings",
+    "stage_name_ar": "استلام أجسام المطابخ والتثبيت",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Material and hardware, support and cabinet leveling",
+        "criterion_ar": "فحص الخامات والإكسسوارات والتثبيت والاستواء",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-KITCHENS-CABINETS-03",
+    "work_category": "Kitchens & Cabinets",
+    "stage_order": 3,
+    "stage_name": "Tops, fronts and finish",
+    "stage_name_ar": "استلام الرخام والضلف والتشطيب",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Joint sealing, door clearance, edges and damage checks",
+        "criterion_ar": "فحص فواصل الأسطح والضلف والحواف والعيوب",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-KITCHENS-CABINETS-04",
+    "work_category": "Kitchens & Cabinets",
+    "stage_order": 4,
+    "stage_name": "Functional handover",
+    "stage_name_ar": "الاستلام النهائي للمطابخ",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Drawers, hinges, lighting and appliance access tested",
+        "criterion_ar": "اختبار الأدراج والمفصلات والإضاءة وإمكانية صيانة الأجهزة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-BATHROOM-FIXTURES-01",
+    "work_category": "Bathroom Fixtures",
+    "stage_order": 1,
+    "stage_name": "Fixture positions and supports",
+    "stage_name_ar": "استلام مواقع الأدوات والتثبيت",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Fixtures align with plumbing rough-in and supports",
+        "criterion_ar": "مطابقة مواقع الأدوات وتأسيس السباكة والتثبيت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-BATHROOM-FIXTURES-02",
+    "work_category": "Bathroom Fixtures",
+    "stage_order": 2,
+    "stage_name": "Sanitary installation and seals",
+    "stage_name_ar": "استلام التركيبات الصحية والسيلكون",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Fixings, grout/sealants and accessible valves",
+        "criterion_ar": "فحص التثبيت والعزل حول التركيبات ومحابس الصيانة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-BATHROOM-FIXTURES-03",
+    "work_category": "Bathroom Fixtures",
+    "stage_order": 3,
+    "stage_name": "Operation and drainage",
+    "stage_name_ar": "استلام التشغيل والصرف",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Leaks, function, pressure and drainage observed",
+        "criterion_ar": "اختبار التسرب والتشغيل والضغط والصرف",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LIGHTING-SYSTEMS-01",
+    "work_category": "Lighting Systems",
+    "stage_order": 1,
+    "stage_name": "Lighting points and circuits",
+    "stage_name_ar": "استلام مواقع الإضاءة والدوائر",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Set-out, circuits and service access coordinated",
+        "criterion_ar": "مراجعة مواقع الإضاءة والدوائر وإمكانية الصيانة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LIGHTING-SYSTEMS-02",
+    "work_category": "Lighting Systems",
+    "stage_order": 2,
+    "stage_name": "Fixtures and control installation",
+    "stage_name_ar": "استلام وحدات الإنارة والتحكم",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Mounting, lamp type, IP rating and safe connections",
+        "criterion_ar": "فحص تثبيت الوحدات وتصنيف الحماية والتوصيلات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LIGHTING-SYSTEMS-03",
+    "work_category": "Lighting Systems",
+    "stage_order": 3,
+    "stage_name": "Functional lighting test",
+    "stage_name_ar": "الاستلام النهائي للإضاءة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Switching, dimming, emergency function if specified",
+        "criterion_ar": "اختبار التشغيل والتحكم والطوارئ إن وجدت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LOW-CURRENT-SYSTEMS-01",
+    "work_category": "Low Current Systems",
+    "stage_order": 1,
+    "stage_name": "Containment and device positions",
+    "stage_name_ar": "استلام مسارات التيار الخفيف",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Segregation from power, cables and device locations",
+        "criterion_ar": "فحص فصل المسارات عن القوى ومواقع الأجهزة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LOW-CURRENT-SYSTEMS-02",
+    "work_category": "Low Current Systems",
+    "stage_order": 2,
+    "stage_name": "Cable pulling and certification",
+    "stage_name_ar": "استلام الكابلات والاختبارات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Cable identification, terminations and continuity",
+        "criterion_ar": "فحص الترقيم والنهايات واختبار الاستمرارية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LOW-CURRENT-SYSTEMS-03",
+    "work_category": "Low Current Systems",
+    "stage_order": 3,
+    "stage_name": "Equipment and functional testing",
+    "stage_name_ar": "الاستلام النهائي للأنظمة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Device communications and configured scenarios checked",
+        "criterion_ar": "اختبار اتصال الأجهزة والسيناريوهات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SMART-HOME-AUTOMATION-01",
+    "work_category": "Smart Home & Automation",
+    "stage_order": 1,
+    "stage_name": "Control design and rough-in",
+    "stage_name_ar": "استلام التصميم والتأسيس",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Controller and sensor points, wiring and network compatibility",
+        "criterion_ar": "فحص مواقع وحدات التحكم والحساسات والشبكة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SMART-HOME-AUTOMATION-02",
+    "work_category": "Smart Home & Automation",
+    "stage_order": 2,
+    "stage_name": "Modules and programming",
+    "stage_name_ar": "استلام تركيب وبرمجة الأنظمة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Automation logic, fail-safe and user permissions",
+        "criterion_ar": "مراجعة البرمجة وحالات الأمان والصلاحيات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SMART-HOME-AUTOMATION-03",
+    "work_category": "Smart Home & Automation",
+    "stage_order": 3,
+    "stage_name": "Scenes and end-user handover",
+    "stage_name_ar": "الاستلام النهائي للمنزل الذكي",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Scenes, backup, manual override and user instructions",
+        "criterion_ar": "اختبار السيناريوهات والنسخ الاحتياطي والتحكم اليدوي",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CCTV-SECURITY-SYSTEMS-01",
+    "work_category": "CCTV & Security Systems",
+    "stage_order": 1,
+    "stage_name": "Camera locations and cable rough-in",
+    "stage_name_ar": "استلام مواقع الكاميرات والتأسيس",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Coverage, privacy considerations and routes approved",
+        "criterion_ar": "اعتماد التغطية ومراعاة الخصوصية والمسارات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CCTV-SECURITY-SYSTEMS-02",
+    "work_category": "CCTV & Security Systems",
+    "stage_order": 2,
+    "stage_name": "Camera and recorder installation",
+    "stage_name_ar": "استلام التركيب والتوصيل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Fixing, power, network, storage capacity and access controls",
+        "criterion_ar": "فحص التثبيت والتغذية والشبكة والتخزين والصلاحيات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CCTV-SECURITY-SYSTEMS-03",
+    "work_category": "CCTV & Security Systems",
+    "stage_order": 3,
+    "stage_name": "Recording and alarm test",
+    "stage_name_ar": "الاستلام النهائي للكاميرات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Live/replay, retention policy and alerts tested",
+        "criterion_ar": "اختبار المشاهدة والتسجيل والاحتفاظ والتنبيهات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FIRE-ALARM-FIRE-FIGHTING-01",
+    "work_category": "Fire Alarm & Fire Fighting",
+    "stage_order": 1,
+    "stage_name": "Approved fire design and containment",
+    "stage_name_ar": "استلام تصميم ومواسير الحريق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Approvals, device layout, pipe routing and segregation",
+        "criterion_ar": "الاعتمادات ومواقع الكواشف والمسارات والفصل",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FIRE-ALARM-FIRE-FIGHTING-02",
+    "work_category": "Fire Alarm & Fire Fighting",
+    "stage_order": 2,
+    "stage_name": "Equipment and pipework rough-in",
+    "stage_name_ar": "استلام التركيبات والمواسير",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Coverage, supports and relevant pressure/continuity tests",
+        "criterion_ar": "فحص التغطية والتثبيت واختبارات الضغط والاستمرارية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FIRE-ALARM-FIRE-FIGHTING-03",
+    "work_category": "Fire Alarm & Fire Fighting",
+    "stage_order": 3,
+    "stage_name": "Cause and effect / commissioning",
+    "stage_name_ar": "التشغيل والتجارب والاستلام",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "System commissioning under competent fire specialist and authority requirements",
+        "criterion_ar": "اختبار النظام بواسطة متخصص واعتماد الجهات المختصة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-FIRE-ALARM-FIRE-FIGHTING-04",
+    "work_category": "Fire Alarm & Fire Fighting",
+    "stage_order": 4,
+    "stage_name": "Fire safety closeout",
+    "stage_name_ar": "الاستلام النهائي لأنظمة الحريق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Certificates, maintenance plan, labels and handover documents",
+        "criterion_ar": "تسليم الشهادات وخطة الصيانة والعلامات والمستندات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-NETWORKING-DATA-CABLING-01",
+    "work_category": "Networking & Data Cabling",
+    "stage_order": 1,
+    "stage_name": "Data routes and containment",
+    "stage_name_ar": "استلام مواسير ومسارات الشبكة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Cable bend radius and separation from power",
+        "criterion_ar": "فحص مسارات الكابلات وفصلها عن الكهرباء",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-NETWORKING-DATA-CABLING-02",
+    "work_category": "Networking & Data Cabling",
+    "stage_order": 2,
+    "stage_name": "Termination and labeling",
+    "stage_name_ar": "استلام النهايات والترقيم",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Patch panels, outlets and clear port labeling",
+        "criterion_ar": "فحص الباتش بانل والنهايات وترقيم المخارج",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-NETWORKING-DATA-CABLING-03",
+    "work_category": "Networking & Data Cabling",
+    "stage_order": 3,
+    "stage_name": "Certification and handover",
+    "stage_name_ar": "الاستلام النهائي للشبكة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Link test results and network map recorded",
+        "criterion_ar": "توثيق اختبارات الشبكة ومخطط التوصيلات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELEVATORS-LIFTS-01",
+    "work_category": "Elevators & Lifts",
+    "stage_order": 1,
+    "stage_name": "Shaft civil and safety readiness",
+    "stage_name_ar": "استلام البئر والتجهيزات الإنشائية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Dimensions, pit, overhead and civil handoff by specialist",
+        "criterion_ar": "الأبعاد والبيارة والخلوصات واعتماد متخصص",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELEVATORS-LIFTS-02",
+    "work_category": "Elevators & Lifts",
+    "stage_order": 2,
+    "stage_name": "Guide rails and machinery",
+    "stage_name_ar": "استلام السكك والماكينة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Specialist inspection of rails, fixing and drives",
+        "criterion_ar": "فحص السكك والتثبيت والماكينة بواسطة مختص",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-ELEVATORS-LIFTS-03",
+    "work_category": "Elevators & Lifts",
+    "stage_order": 3,
+    "stage_name": "Testing and statutory handover",
+    "stage_name_ar": "اختبارات الأمان والاستلام الرسمي",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Load, emergency, interlocks and authority-required certificates",
+        "criterion_ar": "اختبار الأحمال والطوارئ والأقفال وشهادات الجهة المختصة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-DEMOLITION-REMOVAL-01",
+    "work_category": "Demolition & Removal",
+    "stage_order": 1,
+    "stage_name": "Scope and safety isolation",
+    "stage_name_ar": "استلام نطاق الإزالة والعزل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Structure approval, utilities isolation and access control",
+        "criterion_ar": "اعتماد النطاق وعزل المرافق وتأمين الموقع",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-DEMOLITION-REMOVAL-02",
+    "work_category": "Demolition & Removal",
+    "stage_order": 2,
+    "stage_name": "Demolition work and waste",
+    "stage_name_ar": "استلام التكسير ونقل المخلفات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "No unauthorized structural work and safe debris removal",
+        "criterion_ar": "منع التكسير الإنشائي غير المعتمد ونقل المخلفات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-DEMOLITION-REMOVAL-03",
+    "work_category": "Demolition & Removal",
+    "stage_order": 3,
+    "stage_name": "Substrate handover",
+    "stage_name_ar": "استلام الموقع بعد الإزالة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Surfaces cleaned and existing installations protected",
+        "criterion_ar": "نظافة الأسطح وحماية التركيبات المتبقية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LANDSCAPING-OUTDOOR-WORKS-01",
+    "work_category": "Landscaping & Outdoor Works",
+    "stage_order": 1,
+    "stage_name": "Levels, drainage and services",
+    "stage_name_ar": "استلام المناسيب والصرف",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Approved grading, drains and buried utilities",
+        "criterion_ar": "مراجعة المناسيب وتصريف المياه والمرافق المدفونة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LANDSCAPING-OUTDOOR-WORKS-02",
+    "work_category": "Landscaping & Outdoor Works",
+    "stage_order": 2,
+    "stage_name": "Hardscape and irrigation rough-in",
+    "stage_name_ar": "استلام الأعمال الصلبة والري",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Bedding, fixing and irrigation pressure test",
+        "criterion_ar": "فحص التجهيز والتثبيت واختبار ضغط الري",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-LANDSCAPING-OUTDOOR-WORKS-03",
+    "work_category": "Landscaping & Outdoor Works",
+    "stage_order": 3,
+    "stage_name": "Planting and final handover",
+    "stage_name_ar": "الاستلام النهائي للزراعة الخارجية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Plant quality, soil prep and irrigation operation",
+        "criterion_ar": "فحص جودة النباتات والتربة وتشغيل شبكة الري",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SWIMMING-POOLS-01",
+    "work_category": "Swimming Pools",
+    "stage_order": 1,
+    "stage_name": "Structure and penetrations",
+    "stage_name_ar": "استلام الهيكل والاختراقات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Specialist structural check, levels and inlet placement",
+        "criterion_ar": "فحص الإنشاءات والمناسيب ومداخل ومخارج المياه",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SWIMMING-POOLS-02",
+    "work_category": "Swimming Pools",
+    "stage_order": 2,
+    "stage_name": "Waterproofing and pressure tests",
+    "stage_name_ar": "استلام العزل واختبارات الضغط",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Leak testing, waterproof membrane and pipework tests",
+        "criterion_ar": "اختبار التسرب والعزل والمواسير",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SWIMMING-POOLS-03",
+    "work_category": "Swimming Pools",
+    "stage_order": 3,
+    "stage_name": "Finishes, filtration and disinfection",
+    "stage_name_ar": "استلام التشطيب والفلاتر",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Tile finish, pump, filtration and safety fittings",
+        "criterion_ar": "فحص التشطيب والمضخات والفلاتر ووسائل الأمان",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-SWIMMING-POOLS-04",
+    "work_category": "Swimming Pools",
+    "stage_order": 4,
+    "stage_name": "Commissioning and handover",
+    "stage_name_ar": "استلام التشغيل النهائي للمسبح",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Water quality, electrical safety and operations handover",
+        "criterion_ar": "اختبار جودة المياه والأمان الكهربائي والتشغيل",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CLEANING-SITE-PREPARATION-01",
+    "work_category": "Cleaning & Site Preparation",
+    "stage_order": 1,
+    "stage_name": "Preparation and protection",
+    "stage_name_ar": "استلام التجهيز والحماية",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Adjacent finishes protected and hazardous items identified",
+        "criterion_ar": "حماية التشطيبات المجاورة وتحديد المخاطر",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CLEANING-SITE-PREPARATION-02",
+    "work_category": "Cleaning & Site Preparation",
+    "stage_order": 2,
+    "stage_name": "Cleaning and debris removal",
+    "stage_name_ar": "استلام التنظيف ورفع المخلفات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Debris cleared safely and surfaces not damaged",
+        "criterion_ar": "رفع المخلفات بأمان وعدم إتلاف الأسطح",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-CLEANING-SITE-PREPARATION-03",
+    "work_category": "Cleaning & Site Preparation",
+    "stage_order": 3,
+    "stage_name": "Final cleanliness",
+    "stage_name_ar": "الاستلام النهائي للنظافة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Site safe, clean and ready for handover",
+        "criterion_ar": "نظافة وأمان المكان وجاهزيته للتسليم",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-FINISHING-01",
+    "work_category": "General Finishing",
+    "stage_order": 1,
+    "stage_name": "Approved samples and substrate",
+    "stage_name_ar": "استلام العينات والأسطح",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Materials and substrate meet approved documentation",
+        "criterion_ar": "اعتماد العينات وجاهزية الأسطح",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-FINISHING-02",
+    "work_category": "General Finishing",
+    "stage_order": 2,
+    "stage_name": "Concealed work before closing",
+    "stage_name_ar": "استلام الأعمال المخفية قبل الإغلاق",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Interfaces, fixings and concealed installations inspected",
+        "criterion_ar": "فحص التثبيت والتنسيق مع التركيبات المخفية",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-FINISHING-03",
+    "work_category": "General Finishing",
+    "stage_order": 3,
+    "stage_name": "Finish quality and snags",
+    "stage_name_ar": "الاستلام النهائي ومعالجة الملاحظات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Finish, operation, defects and protection checked",
+        "criterion_ar": "فحص جودة التشطيب والتشغيل ومعالجة الملاحظات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-MAINTENANCE-01",
+    "work_category": "General Maintenance",
+    "stage_order": 1,
+    "stage_name": "Defect survey",
+    "stage_name_ar": "استلام حصر العيوب",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Defect list, cause and approved repair method",
+        "criterion_ar": "حصر العيوب وأسبابها وطريقة الإصلاح المعتمدة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-MAINTENANCE-02",
+    "work_category": "General Maintenance",
+    "stage_order": 2,
+    "stage_name": "Repair and functional testing",
+    "stage_name_ar": "استلام الإصلاح والاختبار",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Repair effectiveness, safe use and retest",
+        "criterion_ar": "فحص فاعلية الإصلاح وإعادة الاختبار",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-MAINTENANCE-03",
+    "work_category": "General Maintenance",
+    "stage_order": 3,
+    "stage_name": "Closure and warranty notes",
+    "stage_name_ar": "محضر غلق الملاحظات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Photo evidence and follow-up warranty conditions",
+        "criterion_ar": "توثيق الإصلاح والضمان والمتابعة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MATERIAL-SUPPLY-01",
+    "work_category": "Material Supply",
+    "stage_order": 1,
+    "stage_name": "Material delivery documents",
+    "stage_name_ar": "استلام مستندات التوريد",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Purchase/owner order and quantities match delivery",
+        "criterion_ar": "مطابقة أمر التوريد والكميات",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MATERIAL-SUPPLY-02",
+    "work_category": "Material Supply",
+    "stage_order": 2,
+    "stage_name": "Material quality acceptance",
+    "stage_name_ar": "استلام جودة الخامات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Approved brand/spec, batch, date and physical condition",
+        "criterion_ar": "فحص الماركة والمواصفات والدفعة والصلاحية والحالة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-MATERIAL-SUPPLY-03",
+    "work_category": "Material Supply",
+    "stage_order": 3,
+    "stage_name": "Storekeeper receipt",
+    "stage_name_ar": "محضر استلام المخزن",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Quantity and condition acknowledged by site storekeeper",
+        "criterion_ar": "إثبات الكمية والحالة وتوقيع أمين المخزن",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-TRANSPORTATION-LOGISTICS-01",
+    "work_category": "Transportation & Logistics",
+    "stage_order": 1,
+    "stage_name": "Dispatch and loading",
+    "stage_name_ar": "استلام التحميل والمستندات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Dispatch quantities, protection and destination verified",
+        "criterion_ar": "فحص الكميات والحماية وجهة التوصيل",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-TRANSPORTATION-LOGISTICS-02",
+    "work_category": "Transportation & Logistics",
+    "stage_order": 2,
+    "stage_name": "Delivery and offloading",
+    "stage_name_ar": "استلام الوصول والتنزيل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Delivered intact and receiver confirmed",
+        "criterion_ar": "سلامة الشحنة وتأكيد الاستلام",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-TRANSPORTATION-LOGISTICS-03",
+    "work_category": "Transportation & Logistics",
+    "stage_order": 3,
+    "stage_name": "Transfer document closure",
+    "stage_name_ar": "محضر إنهاء النقل",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Signed delivery references recorded",
+        "criterion_ar": "حفظ مستندات النقل والتسليم",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-EQUIPMENT-RENTAL-01",
+    "work_category": "Equipment Rental",
+    "stage_order": 1,
+    "stage_name": "Equipment delivery and inspection",
+    "stage_name_ar": "استلام المعدة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Identity, condition, required safety documents",
+        "criterion_ar": "مطابقة المعدة وحالتها ومستندات الأمان",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-EQUIPMENT-RENTAL-02",
+    "work_category": "Equipment Rental",
+    "stage_order": 2,
+    "stage_name": "Operation and usage log",
+    "stage_name_ar": "فحص التشغيل وسجل الاستخدام",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Operator qualifications and safe operation",
+        "criterion_ar": "فحص أهلية المشغل والتشغيل الآمن",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-EQUIPMENT-RENTAL-03",
+    "work_category": "Equipment Rental",
+    "stage_order": 3,
+    "stage_name": "Return and settlement",
+    "stage_name_ar": "محضر إعادة المعدة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Hours, fuel, condition and return signed",
+        "criterion_ar": "تسجيل الساعات والوقود والحالة والاسترجاع",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-LABOR-01",
+    "work_category": "General Labor",
+    "stage_order": 1,
+    "stage_name": "Scope and resources agreed",
+    "stage_name_ar": "استلام نطاق العمالة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Scope, work zones and HSE requirements agreed",
+        "criterion_ar": "اعتماد النطاق ومناطق العمل ومتطلبات السلامة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-LABOR-02",
+    "work_category": "General Labor",
+    "stage_order": 2,
+    "stage_name": "Work progress inspection",
+    "stage_name_ar": "استلام الأعمال المنفذة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Completed quantities and quality checked",
+        "criterion_ar": "فحص الكميات المنفذة وجودة العمل",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-GENERAL-LABOR-03",
+    "work_category": "General Labor",
+    "stage_order": 3,
+    "stage_name": "Final service signoff",
+    "stage_name_ar": "محضر استلام خدمة العمالة",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Site cleaned and work quality acknowledged",
+        "criterion_ar": "نظافة الموقع واعتماد جودة التنفيذ",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-OTHER-01",
+    "work_category": "Other",
+    "stage_order": 1,
+    "stage_name": "Initial scope and specifications",
+    "stage_name_ar": "استلام النطاق والمواصفات",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Confirm approved scope, materials and acceptance method",
+        "criterion_ar": "مطابقة النطاق والمواد وآلية الاستلام المعتمدة",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-OTHER-02",
+    "work_category": "Other",
+    "stage_order": 2,
+    "stage_name": "Interim inspection",
+    "stage_name_ar": "الاستلام المرحلي",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Review concealed elements and test evidence if applicable",
+        "criterion_ar": "فحص الأعمال المخفية والاختبارات إن وجدت",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 1
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  },
+  {
+    "stage_code": "CF-STG-OTHER-03",
+    "work_category": "Other",
+    "stage_order": 3,
+    "stage_name": "Final handover",
+    "stage_name_ar": "الاستلام النهائي",
+    "hold_point": 1,
+    "active": 1,
+    "checklist": [
+      {
+        "criterion": "Match approved drawings and site specifications",
+        "criterion_ar": "مطابقة الرسومات والمواصفات المعتمدة",
+        "acceptance_standard": "Confirm applicability, exact material, sizes and tolerances against approved project specification; record deviations.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Complete agreed checks, rectify defects and issue signed minutes",
+        "criterion_ar": "إنهاء الفحوص وإصلاح الملاحظات وتوقيع المحضر",
+        "acceptance_standard": "Record physical measurement or test reference as specified by design consultant; do not invent thresholds.",
+        "mandatory": 1,
+        "photo_required": 0
+      },
+      {
+        "criterion": "Document defects, protection and handover readiness",
+        "criterion_ar": "توثيق العيوب والحماية وجاهزية التسليم",
+        "acceptance_standard": "Record outstanding nonconformities and attach test/photos where applicable.",
+        "mandatory": 1,
+        "photo_required": 0
+      }
+    ]
+  }
+]

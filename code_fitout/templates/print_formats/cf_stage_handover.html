@@ -1,0 +1,29 @@
+<style>
+.cf-handover{font-family:Arial,"DejaVu Sans",sans-serif;font-size:11px;color:#18222b}
+.cf-handover h2{text-align:center;margin:6px 0}.cf-handover table{width:100%;border-collapse:collapse;margin:10px 0}
+.cf-handover td,.cf-handover th{border:1px solid #888;padding:5px;vertical-align:top}
+.cf-handover .sign{height:55px}.cf-handover .small{font-size:9px;color:#444}
+</style>
+<div class="cf-handover">
+<h2>محضر استلام مرحلة أعمال / Work-stage Acceptance Minutes</h2>
+<table>
+<tr><td><b>Project / المشروع</b></td><td>{{ doc.project | e }}</td><td><b>No.</b></td><td>{{ doc.name | e }}</td></tr>
+<tr><td><b>Category / البند</b></td><td>{{ doc.work_category | e }}</td><td><b>Date</b></td><td>{{ doc.inspection_date | e }}</td></tr>
+<tr><td><b>Stage / المرحلة</b></td><td>{{ doc.stage_template | e }}</td><td><b>Zone / المنطقة</b></td><td>{{ doc.inspection_area | e }}</td></tr>
+<tr><td><b>Contractor / المقاول</b></td><td>{{ doc.supplier | e }}</td><td><b>Result / النتيجة</b></td><td>{{ doc.outcome | e }}</td></tr>
+</table>
+<table><thead><tr><th>#</th><th>Inspection / بند الفحص</th><th>Requirement / الاشتراط</th><th>Result / النتيجة</th><th>Notes / الملاحظات</th></tr></thead><tbody>
+{% for item in doc.checklist %}<tr>
+<td>{{ loop.index }}</td><td>{{ (item.criterion_ar or item.criterion) | e }}<div class="small">{{ item.criterion | e }}</div></td>
+<td>{{ (item.acceptance_standard or '') | e }}</td><td>{{ (item.result or '') | e }}</td><td>{{ (item.remarks or '') | e }}</td>
+</tr>{% endfor %}
+</tbody></table>
+<p><b>Site observations / ملاحظات الموقع:</b> {{ (doc.notes or '—') | e }}</p>
+<p><b>Testing record / شهادة الاختبار:</b> {{ (doc.test_certificate or '—') | e }}</p>
+<p><b>Signed scan / نسخة محضر موقع:</b> {{ (doc.signed_copy or '—') | e }}</p>
+<table><tr><th>Contractor / المقاول</th><th>Inspector / المهندس</th><th>Owner representative / ممثل المالك</th></tr>
+<tr><td class="sign">{{ (doc.contractor_representative or doc.supplier or '') | e }}<p>Signature / التوقيع: __________</p></td>
+<td class="sign">{{ (doc.inspector or '') | e }}<p>Signature / التوقيع: __________</p></td>
+<td class="sign">{{ (doc.owner_representative or '') | e }}<p>Signature / التوقيع: __________</p></td></tr></table>
+<div class="small">This record documents the selected work stage only. Consultant-approved project specifications, actual test readings, and signed evidence govern acceptance. Digital checkboxes are not legally binding signatures.</div>
+</div>
