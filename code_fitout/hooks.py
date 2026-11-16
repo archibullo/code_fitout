@@ -33,6 +33,6 @@ add_to_apps_screen = [{
     "name": "code_fitout",
     "logo": "/assets/code_fitout/images/fitout-mark.svg",
     "title": "C.O.D.E. Fitout",
-    "route": "/desk/code-fitout/cf-work-category",
+    "route": "/desk/code-fitout/c.o.d.e.-fitout-management",
     "sequence_id": 35,
 }]
