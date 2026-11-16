@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.1 — Setup lifecycle reliability (2026-11-16)
+
+- Added automatic, idempotent Supplier Group initialization when ERPNext setup wizard finishes, a company is created, or the root Supplier Group is updated.
+- Kept `after_install` and `after_migrate` repair hooks. Existing Supplier Groups and edited inspection templates are not overwritten.
+- Added the read-only `code_fitout.setup.install.setup_status` diagnostic and regression tests.
+- Preserved the working Frappe v16 Apps-screen route from the latest GitHub `main` branch.
+- Verified by offline unit tests; fresh-site integration testing is still required.
+
+
 ## 0.4.0 — Supervision, staged handovers and site stores (2026-11-15)
 
 - Added resident or visiting supervisors, per-project assignments, site visit logs and coverage reporting.

@@ -36,7 +36,58 @@ def after_install():
 
 
 def after_migrate():
+    # Repair missing setup records on every site migration.
     seed()
+
+
+def after_setup_wizard(args=None):
+    # Runs after ERPNext has completed its setup stages.
+    seed()
+
+
+def on_company_created(doc, method=None):
+    # Company can be created after code_fitout is installed.
+    seed_supplier_groups()
+
+
+def on_supplier_group_updated(doc, method=None):
+    # Root Supplier Group may appear after app installation and after Company.
+    # Only react to the root; inserting our children must not recurse.
+    if doc.name == "All Supplier Groups" and doc.get("is_group"):
+        seed_supplier_groups()
+
+
+def seed_supplier_groups():
+    """Insert only missing leaf groups; leave existing ERPNext masters untouched."""
+    if not frappe.db.exists("DocType", "Supplier Group"):
+        return
+    if not frappe.db.exists("Supplier Group", "All Supplier Groups"):
+        return
+
+    for group in ("Fitout Contractors", "Material Suppliers", "Site Services"):
+        if not frappe.db.exists("Supplier Group", group):
+            frappe.get_doc({
+                "doctype": "Supplier Group",
+                "supplier_group_name": group,
+                "parent_supplier_group": "All Supplier Groups",
+                "is_group": 0,
+            }).insert(ignore_permissions=True)
+
+
+def setup_status():
+    """Read-only setup diagnostic; can be called with bench execute."""
+    groups = ("Fitout Contractors", "Material Suppliers", "Site Services")
+    return {
+        "supplier_root_exists": bool(frappe.db.exists("Supplier Group", "All Supplier Groups")),
+        "supplier_groups": {name: bool(frappe.db.exists("Supplier Group", name)) for name in groups},
+        "instapay_exists": bool(frappe.db.exists("Mode of Payment", "InstaPay")),
+        "work_categories": frappe.db.count("CF Work Category") if frappe.db.exists("DocType", "CF Work Category") else 0,
+        "stage_templates": frappe.db.count("CF Stage Template") if frappe.db.exists("DocType", "CF Stage Template") else 0,
+        "print_formats": {
+            name: bool(frappe.db.exists("Print Format", name))
+            for name in ("CF Stage Handover Minutes", "CF Final Trade Handover")
+        },
+    }
 
 
 def seed():
@@ -45,13 +96,7 @@ def seed():
     for name in CATEGORIES:
         if not frappe.db.exists("CF Work Category", name):
             frappe.get_doc({"doctype": "CF Work Category", "category_name": name}).insert(ignore_permissions=True)
-    if frappe.db.exists("DocType", "Supplier Group") and frappe.db.exists("Supplier Group", "All Supplier Groups"):
-        for group in ("Fitout Contractors", "Material Suppliers", "Site Services"):
-            if not frappe.db.exists("Supplier Group", group):
-                frappe.get_doc({
-                    "doctype": "Supplier Group", "supplier_group_name": group,
-                    "parent_supplier_group": "All Supplier Groups", "is_group": 0
-                }).insert(ignore_permissions=True)
+    seed_supplier_groups()
     if frappe.db.exists("DocType", "Mode of Payment") and not frappe.db.exists("Mode of Payment", "InstaPay"):
         frappe.get_doc({"doctype": "Mode of Payment", "mode_of_payment": "InstaPay", "type": "General"}).insert(ignore_permissions=True)
     seed_handover_templates()

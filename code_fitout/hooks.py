@@ -10,6 +10,19 @@ before_install = "code_fitout.setup.install.before_install"
 after_install = "code_fitout.setup.install.after_install"
 after_migrate = "code_fitout.setup.install.after_migrate"
 
+# ERPNext's master data can be created *after* the app is installed.
+# Fill missing defaults when the setup wizard finishes or when a company/root
+# supplier group is created. All the called methods are idempotent.
+setup_wizard_complete = "code_fitout.setup.install.after_setup_wizard"
+doc_events = {
+    "Company": {
+        "after_insert": "code_fitout.setup.install.on_company_created",
+    },
+    "Supplier Group": {
+        "on_update": "code_fitout.setup.install.on_supplier_group_updated",
+    },
+}
+
 # Supplier's additional payment and specialization fields are versioned fixtures.
 fixtures = [
     {"dt": "Custom Field", "filters": [["fieldname", "in", [

@@ -1,6 +1,6 @@
 # C.O.D.E. Fitout Management (`code_fitout`)
 
-**Source release candidate v0.4.0 — fresh ERPNext / Frappe v16 installation.** Independent, version-controlled Frappe app for Egyptian apartment fitout, resident/visiting supervision, staged work acceptance, project site stores and mixed owner/personal/company funding.
+**Source release candidate v0.4.1 — fresh ERPNext / Frappe v16 installation.** Independent, version-controlled Frappe app for Egyptian apartment fitout, resident/visiting supervision, staged work acceptance, project site stores and mixed owner/personal/company funding.
 
 **Testing status:** All Python/JSON source parses and local static/SQL tests pass. **No real ERPNext v16 bench/MariaDB end-to-end installation or workflow test has been performed here.** Validate on a fresh **test site** before using real payments, stock or signed acceptance records. Not a statutory accounting or code-certification system.
 

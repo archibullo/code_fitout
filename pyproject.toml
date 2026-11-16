@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "code_fitout"
-version = "0.4.0"
+version = "0.4.1"
 description = "C.O.D.E. Fitout Management for ERPNext"
 readme = "README.md"
 requires-python = ">=3.14"
